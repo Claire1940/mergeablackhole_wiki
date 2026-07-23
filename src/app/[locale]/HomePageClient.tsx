@@ -1322,12 +1322,12 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://www.roblox.com/games/118605709428489/Merge-a-Black-Hole"
+                    href="https://www.youtube.com/watch?v=VAjEfeOlYuo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> YouTube{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
@@ -1336,7 +1336,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Roblox <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1407,7 +1407,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.roblox.com/games/118605709428489/Merge-a-Black-Hole"
+                    href="https://www.youtube.com/watch?v=VAjEfeOlYuo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Merge a Black Hole Wiki - Codes, Upgrades & Guide",
+      "description": "Merge a Black Hole Wiki provides Roblox codes, black hole upgrades, merge strategies, progression tips, rewards, and beginner guides to help players grow faster.",
+      "keywords": "Merge a Black Hole, Roblox, codes, upgrades, simulator, guide, wiki",
+      "ogTitle": "Merge a Black Hole Wiki - Codes, Upgrades & Guide",
+      "ogDescription": "Merge a Black Hole Wiki provides Roblox codes, black hole upgrades, merge strategies, progression tips, rewards, and beginner guides to help players grow faster.",
+      "twitterTitle": "Merge a Black Hole Wiki - Codes, Upgrades & Guide",
+      "twitterDescription": "Merge a Black Hole Wiki provides Roblox codes, upgrades, merge strategies, progression tips, rewards, and beginner guides."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Black Hole Merge Simulator",
+    "title": "Merge a Black Hole Wiki",
+    "description": "Complete Merge a Black Hole Wiki covering codes, black hole upgrades, merge mechanics, progression strategies, rewards, and beginner guides for Roblox players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Roblox",
+        "label": "Platform"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Merge",
+        "label": "Genre"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Free",
+        "label": "To Play"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "8",
+        "label": "Wiki Sections"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play Merge a Black Hole?",
+    "description": "Jump into Merge a Black Hole on Roblox — merge black holes, stack your arsenal, raid everyone, and redeem free codes to grow faster!",
+    "joinCommunity": "Watch Gameplay",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Merge a Black Hole Wiki",
+    "description": "Your complete resource hub for Merge a Black Hole codes, upgrades, merge mechanics, progression, rewards, and beginner guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Play on Roblox",
+    "twitter": "Watch Gameplay",
+    "steamCommunity": "Search Roblox",
+    "steamStore": "Roblox Home",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Merge a Black Hole Wiki. Not affiliated with the developers of Merge a Black Hole.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
