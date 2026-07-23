@@ -10,7 +10,15 @@
       "twitterDescription": "Merge a Black Hole Wiki provides Roblox codes, upgrades, merge strategies, progression tips, rewards, and beginner guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "merging": "Merging",
+    "levels": "Levels",
+    "rewards": "Rewards",
+    "facts": "Facts",
+    "videos": "Videos"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -349,14 +357,34 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Merge a Black Hole Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced progression strategies for Merge a Black Hole.",
-      "metaTitle": "Merge a Black Hole Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Merge a Black Hole guides covering beginner tips, upgrades, rebirth strategies, and expert tactics for mastering the Roblox merge simulator.",
+    "codes": {
+      "title": "Merge a Black Hole Codes",
+      "description": "Active Merge a Black Hole codes for free gems, coins, and upgrade boosts. Redeem working codes to grow your black hole faster.",
+      "metaTitle": "Merge a Black Hole Codes - Free Gems & Boosts",
+      "metaDescription": "Redeem the latest working Merge a Black Hole codes for free gems, coins, and upgrade boosts. Updated list of active codes to accelerate your black hole growth.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Merge a Black Hole codes are free redemption strings released by the developers that grant bonus gems, coins, and upgrade boosts. Enter them in-game to claim instant rewards that speed up your black hole growth.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Instantly claim free gems and coins without grinding",
+        "step2Title": "Faster Growth",
+        "step2Description": "Boosts accelerate your black hole merging and leveling",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with game updates and milestones"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Merge a Black Hole Guide",
+      "description": "Complete Merge a Black Hole guides from beginner basics to advanced progression, merging strategies, and tips for mastering the Roblox simulator.",
+      "metaTitle": "Merge a Black Hole Guide - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Merge a Black Hole guides covering beginner tips, how to play, progression strategies, and expert tactics for mastering the Roblox merge simulator.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Merge a Black Hole gameplay mechanics, progression strategies, and upgrade paths. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Merge a Black Hole gameplay mechanics, controls, objectives, and progression paths. Learn everything from your first merge to advanced farming techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
@@ -364,19 +392,19 @@
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to grow your black hole quickly",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for farming and rebirth timing"
+        "step3Description": "Develop advanced tactics for efficient farming and leveling"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
+    "merging": {
       "title": "Merge a Black Hole Merging",
-      "description": "Master the merge system with object combinations, upgrade paths, and efficient merging strategies.",
-      "metaTitle": "Merge a Black Hole Merging - Merge System & Strategies",
-      "metaDescription": "Master the Merge a Black Hole merge system. Learn object combinations, upgrade paths, and strategies for growing a powerful black hole.",
+      "description": "Master the Merge a Black Hole merge system with object combinations, black hole tier paths, and efficient merging strategies.",
+      "metaTitle": "Merge a Black Hole Merging - Merge System & Black Hole Tiers",
+      "metaDescription": "Master the Merge a Black Hole merge system. Learn object combinations, black hole tier progression, and strategies for building a powerful black hole.",
       "categoryLabel": "MERGE SYSTEM",
       "whatIs": "What is Merging?",
-      "whatIsDescription": "The merge system is the core mechanic where you collect and combine objects to grow your black hole and unlock stronger upgrades over time.",
+      "whatIsDescription": "Merging is the core mechanic of Merge a Black Hole, where you collect and combine objects to grow your black hole through escalating tiers and unlock stronger upgrades.",
       "why": "Why master merging?",
       "whySteps": {
         "step1Title": "Grow Faster",
@@ -389,85 +417,85 @@
       "featured": "Featured & Essential",
       "all": "All Merging Guides"
     },
-    "items": {
-      "title": "Merge a Black Hole Items",
-      "description": "Detailed item guides covering pets, boosts, collectibles, and upgrade materials with usage tips.",
-      "metaTitle": "Merge a Black Hole Items - Pets, Boosts & Gear Guide",
-      "metaDescription": "Complete item database for Merge a Black Hole including pets, boosts, collectibles, and upgrade materials. Learn how to use every item effectively.",
-      "categoryLabel": "ITEMS & BOOSTS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for pets, boosts, collectibles, and upgrade materials in Merge a Black Hole. Learn usage strategies and optimal combinations.",
-      "why": "Why check item guides?",
+    "levels": {
+      "title": "Merge a Black Hole Levels & Upgrades",
+      "description": "Master Merge a Black Hole levels, upgrades, and rebirth systems with detailed progression paths and best upgrade priorities.",
+      "metaTitle": "Merge a Black Hole Levels & Upgrades - Progression & Rebirth",
+      "metaDescription": "Master Merge a Black Hole levels and upgrades with progression paths, best upgrade priorities, and rebirth strategies for sustained growth.",
+      "categoryLabel": "LEVELS & UPGRADES",
+      "whatIs": "What are Levels & Upgrades?",
+      "whatIsDescription": "Levels and upgrades drive your long-term growth in Merge a Black Hole, covering black hole tiers, upgrade priorities, and the rebirth system that resets progress for permanent bonuses.",
+      "why": "Why plan upgrades?",
       "whySteps": {
-        "step1Title": "Find the Best Boosts",
-        "step1Description": "Discover which pets and items improve your farming",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your progression stage",
-        "step3Title": "Improve Farming",
-        "step3Description": "Equip boosts to gather resources faster"
+        "step1Title": "Prioritize Upgrades",
+        "step1Description": "Focus resources on the upgrades with the biggest impact",
+        "step2Title": "Plan Rebirths",
+        "step2Description": "Time your rebirths for maximum permanent bonuses",
+        "step3Title": "Track Milestones",
+        "step3Description": "Set growth targets across every progression cycle"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Upgrade Guides"
     },
-    "biomes": {
-      "title": "Merge a Black Hole Zones",
-      "description": "Explore map zones, object locations, resource distribution, and farming tips for each area.",
-      "metaTitle": "Merge a Black Hole Zones - Map Areas & Farming",
-      "metaDescription": "Explore Merge a Black Hole zones including high-density object areas and bonus regions. Find resources, plan routes, and farm efficiently.",
-      "categoryLabel": "MAP ZONES",
-      "whatIs": "What are Zones?",
-      "whatIsDescription": "Guides to different map areas, object distribution, and bonus regions in Merge a Black Hole. Learn what to expect and how to prepare for each zone.",
-      "why": "Why explore zones?",
+    "rewards": {
+      "title": "Merge a Black Hole Rewards",
+      "description": "Complete guide to Merge a Black Hole rewards including daily login bonuses, free rewards, quests, and redemption rewards.",
+      "metaTitle": "Merge a Black Hole Rewards - Daily & Free Rewards Guide",
+      "metaDescription": "Discover all Merge a Black Hole rewards including daily login bonuses, free rewards, quests, and redemption tips to maximize your resource income.",
+      "categoryLabel": "REWARDS",
+      "whatIs": "What are Rewards?",
+      "whatIsDescription": "Rewards in Merge a Black Hole cover every free resource source: daily login bonuses, quest rewards, event prizes, and redemption rewards that boost your black hole growth.",
+      "why": "Why claim rewards?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate dense object clusters specific to each zone",
-        "step2Title": "Maximize Bonuses",
-        "step2Description": "Take advantage of bonus zones that multiply gains",
-        "step3Title": "Plan Routes",
-        "step3Description": "Prepare efficient farming paths through each area"
+        "step1Title": "Daily Login Bonuses",
+        "step1Description": "Claim free resources every day just for logging in",
+        "step2Title": "Complete Quests",
+        "step2Description": "Earn extra gems and coins from daily and event quests",
+        "step3Title": "Maximize Income",
+        "step3Description": "Stack reward sources to accelerate progression"
       },
       "featured": "Featured & Essential",
-      "all": "All Zones"
+      "all": "All Rewards Guides"
     },
-    "building": {
-      "title": "Merge a Black Hole Progression",
-      "description": "Master long-term progression, rebirth strategy, and milestone planning for sustained growth.",
-      "metaTitle": "Merge a Black Hole Progression - Rebirth & Milestones",
-      "metaDescription": "Master Merge a Black Hole progression with rebirth strategy, milestone planning, and long-term growth techniques.",
-      "categoryLabel": "PROGRESSION",
-      "whatIs": "What is Progression?",
-      "whatIsDescription": "Guides to long-term progression, rebirth strategy, and milestone planning in Merge a Black Hole. Learn to turn short-term farming into sustained growth.",
-      "why": "Why plan progression?",
+    "facts": {
+      "title": "Merge a Black Hole Facts",
+      "description": "Explore real black hole science behind Merge a Black Hole - gravitational waves, LIGO detections, NASA research, energy release, and mass after merger.",
+      "metaTitle": "Merge a Black Hole Facts - Black Hole Science & Physics",
+      "metaDescription": "Discover the real black hole science behind Merge a Black Hole, including gravitational waves, LIGO, NASA research, energy release, and what happens when black holes merge.",
+      "categoryLabel": "BLACK HOLE FACTS",
+      "whatIs": "What are Black Hole Facts?",
+      "whatIsDescription": "Black hole facts explore the real astrophysics behind Merge a Black Hole, from gravitational waves detected by LIGO to NASA research on the energy and mass released when black holes merge.",
+      "why": "Why learn the facts?",
       "whySteps": {
-        "step1Title": "Plan Rebirths",
-        "step1Description": "Time your rebirths for maximum permanent bonuses",
-        "step2Title": "Set Milestones",
-        "step2Description": "Track growth targets across every progression cycle",
-        "step3Title": "Sustain Growth",
-        "step3Description": "Build a routine that keeps your black hole expanding"
+        "step1Title": "Real Science",
+        "step1Description": "Understand the actual physics of merging black holes",
+        "step2Title": "Gravitational Waves",
+        "step2Description": "Learn how LIGO detects ripples in spacetime from mergers",
+        "step3Title": "Cosmic Scale",
+        "step3Description": "Grasp the energy and mass involved in real black hole mergers"
       },
       "featured": "Featured & Essential",
-      "all": "All Progression Guides"
+      "all": "All Facts"
     },
-    "support": {
-      "title": "Merge a Black Hole Support",
-      "description": "Platform help, performance tips, and answers to common Merge a Black Hole questions.",
-      "metaTitle": "Merge a Black Hole Support - Help & FAQ",
-      "metaDescription": "Get support for Merge a Black Hole including platform help, performance tips, code redemption issues, and common questions.",
-      "categoryLabel": "SUPPORT & FAQ",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Help articles covering platform compatibility, performance, code redemption, and common questions about Merge a Black Hole.",
-      "why": "Why check support?",
+    "videos": {
+      "title": "Merge a Black Hole Videos",
+      "description": "Watch Merge a Black Hole gameplay, trailers, walkthroughs, and animations to see strategies in action and stay updated on new content.",
+      "metaTitle": "Merge a Black Hole Videos - Gameplay, Trailers & Walkthroughs",
+      "metaDescription": "Watch Merge a Black Hole gameplay videos, trailers, walkthroughs, and animations. See top strategies in action and catch the latest game updates.",
+      "categoryLabel": "VIDEOS",
+      "whatIs": "What are Videos?",
+      "whatIsDescription": "Videos showcase Merge a Black Hole in motion, including gameplay footage, official trailers, full walkthroughs, and animations that demonstrate strategies and new content.",
+      "why": "Why watch videos?",
       "whySteps": {
-        "step1Title": "Fix Common Issues",
-        "step1Description": "Resolve code redemption and loading problems",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your device",
-        "step3Title": "Platform Help",
-        "step3Description": "Learn about Roblox compatibility across PC, mobile, and tablet"
+        "step1Title": "See Strategies",
+        "step1Description": "Watch top players execute winning merge strategies",
+        "step2Title": "Stay Updated",
+        "step2Description": "Catch trailers and announcements for new content",
+        "step3Title": "Learn Visually",
+        "step3Description": "Follow walkthroughs to master difficult sections"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Videos"
     }
   }
 }
