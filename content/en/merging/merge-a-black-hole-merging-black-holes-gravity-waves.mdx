@@ -1,0 +1,277 @@
+## 🚨 强制要求（必须严格遵守 - 最高优先级）
+
+### 组件使用强制要求
+每篇文章必须至少使用以下所有组件各一次：
+- ✅ **Section** - 每个主要章节（必用，通常 4-6 个）
+- ✅ **Callout** - 至少 2-3 个（使用不同 type: tip/warning/info/success）
+  - **重要**：每个 Section 内部都必须至少使用一次 Callout 组件
+- ✅ **CardGrid/Card** - 至少 1 组（3-4 个卡片，展示并列对比）
+- ✅ **Steps** - 至少 1 个步骤流程（3-5 个步骤）
+- ✅ **Checklist** - 至少 1 个清单（3-5 个项目）
+- ✅ **FAQ** - 至少 1 个（3-4 组问答）
+- ✅ **表格** - 至少 2-5 个
+
+### 视频使用强制规则
+- ⚠️ **同一个视频只能使用一次**，禁止在文章中多次嵌入相同的视频
+- 只嵌入与主关键词高度相关的视频（1-2个最相关的）
+- 如果所有视频都不相关，不嵌入任何视频
+
+### Callout 组件使用规则
+- **每个 Section 内部都必须至少使用一次 Callout 组件**
+- 使用不同的 type 类型：tip、warning、info、success
+- 用于突出重要提示、警告信息、专业建议
+
+---
+
+## 📝 文章撰写指南
+
+### 关键词和标题生成要求
+- 使用 merged_data.keyword 作为主关键词（Primary Keyword）
+- 生成文章标题：格式：主关键词：具体描述
+  - 必须以主关键词开头，后跟冒号和描述性文字
+  - 长度控制在 50-60 字符
+  - 描述部分必须使用具体的内容类型词，如：Tier List、Step-by-Step、Comparison、Rankings、Walkthrough、Tips & Tricks、Setup Guide、Farming Route、Loadout 等
+  - 如果需要体现时效性，年份应融入描述中而非堆在末尾（如 "2026 Tier List" 而非 "Tier List 2026"）；内容本身不涉及时效变化时无需加年份
+  - 禁止使用空泛词：Ultimate、Complete、Everything、Definitive、Comprehensive
+  - 示例：
+    - "Merge a Black Hole: Ultimate 2026 Tier List & Meta Picks"
+    - "Merge a Black Hole: Farm Layout Guide for Fast Gold"
+
+### 写作风格
+- **以主编视角写作**：
+  - ✅ 正确："Follow these steps..." / "This method works..."
+  - ❌ 错误："The video shows..." / "According to the webpage..."
+  - 禁止频繁提及"视频中"、"网页提到"等来源表达
+
+- **内容来源规则**：
+  - 核心内容必须来自merged_data（YouTube视频+网页）
+  - 可添加最多3条外部信息（需标注日期+来源链接）
+  - 外部信息优先级：官方 > Steam > 游戏媒体
+
+- **避免绝对化表达**：
+  - 禁用："100%有效"、"永远"、"从不"、"完全免费"
+  - 除非有明确证据或官方来源
+
+- **表格优先原则**：
+  - 能用表格就不用段落
+  - 数据、对比、步骤都用表格呈现
+  - 表格让内容更易扫读
+
+### 网页来源使用
+- 网页内容可作为内容参考和权威外链
+- 引用格式：描述性锚文本+网页URL
+- 优先级：官方网站 > Wiki > 游戏媒体
+- 只引用相关内容，忽略不相关网页
+
+### 视频嵌入规则
+- **选择标准**：
+  - 嵌入前必须检查视频标题是否包含 "merge a black hole"（不区分大小写）
+  - 不包含 "merge a black hole" 的视频禁止嵌入
+  - 选择1-2个最相关的视频
+  - 如果都不相关，不嵌入任何视频
+
+- **视频位置（强制）**：
+  - 放在**第一个 Section 内部**
+  - 紧跟 Section 标题和简短介绍段落
+  - 视频前添加 3-5 条要点摘要（Video Highlights）
+  - 视频后继续该 Section 的其他内容
+
+- **嵌入格式**：
+```jsx
+<Section icon={Map} title="章节标题">
+
+简短介绍段落...
+
+**Video Highlights:**
+- 要点1
+- 要点2
+- 要点3
+
+<YouTubeEmbed videoId="视频ID" title="视频标题" />
+
+后续内容...
+
+</Section>
+```
+- videoId: YouTube URL 中的视频ID（例如：https://www.youtube.com/watch?v=abc123 → videoId="abc123"）
+- title: 视频标题（可选）
+
+---
+
+## 📋 文章结构
+
+### 文件头部
+* ES6 import 语句导入 Lucide 图标和 MDX 组件
+* export const metadata 对象（title、description、category、image、date、author）
+
+  * **category 字段**（文章分类）：
+    - 作用：用于文章分类、导航和筛选，根据文章主题选择最合适的分类，1-2个词
+    - 常用分类：
+      * "Guide" - 攻略指南（新手指南、进阶攻略、完整指南）
+      * "Tutorial" - 教程（具体操作步骤、技巧教学）
+
+  * **author 字段**（作者信息）：
+    - 格式："merge a black hole Wiki Team"
+    - 直接使用主题名变量，不从关键词中提取
+
+  * **image 字段**（封面图）：
+    - 必须使用 placehold.co 格式：`https://placehold.co/800x400/颜色代码/文字颜色?text=文章主题`
+    - 颜色代码：6位十六进制（如 059669 表示绿色，但是你生成时禁止用绿色，选适合文章内容的颜色）
+    - 文字颜色：3位或6位十六进制（如 fff 表示白色）
+    - text 参数：使用加号连接的英文单词，反映文章主题
+    - 示例：`https://placehold.co/800x400/059669/fff?text=Progression+Guide`
+
+### TL;DR 部分
+* **位置**：紧跟 metadata 对象之后，引言之前
+* **格式**：必须使用 Callout 组件包裹（type="info" 或 "tip"）
+* **标题**：使用简洁的英文标题，如 "Quick Guide" 或 "Key Takeaways"
+* **列表项**：3-5 条要点，每条使用粗体强调关键词
+* **要求**：
+  - 每条要点控制在 15-20 词以内
+  - 第一条必须包含主关键词
+  - 使用粗体突出核心信息
+  - 禁止使用 emoji，只使用文字和粗体
+
+### 引言部分
+* 不要在 Quick Guide 和第一个 Section 之间写任何引言段落
+* Quick Guide Callout 结束后直接进入第一个 Section
+
+### Section 组件
+* 每个章节都用 Section 包裹
+
+### 表格要求
+* 至少3-5个表格
+* **表格格式规则（强制）**：
+  - 每个表格单元格内容必须简洁，不超过 300 字符
+  - 禁止在表格单元格中使用多余的空格填充或对齐
+  - 表格列之间只需要单个空格分隔（例如：`| Column1 | Column2 |`）
+  - 如果内容过长，使用简洁的描述或分点列出（用逗号或斜杠分隔）
+  - 正确示例：`| Weapon | High damage, Fast attack, Good range |`
+  - 错误示例：`| Weapon     [大量空格]     | Content |`
+
+### 4-6个主要章节
+* 可选子标题
+* 多用项目符号列表
+* 每段不超过120词
+
+### FAQ 组件
+* 3-4组问答
+* 使用 FAQ 组件（而非纯文本格式）
+* 格式：`<FAQ items={[...]} />`
+* FAQ内容必须来自正文
+* 至少使用一次主关键词
+
+---
+
+## 📝 文章示例
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Merge a Black Hole: Ultimate 2026 Tier List & Meta Picks",
+  description: "Discover the top-tier characters and strategies for the ultimate success in Merge a Black Hole in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Merge+a+Black+Hole+2026+Tier+List",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Merge a Black Hole
+- **Key mechanic**: Character progression and meta picks
+- **Best strategy**: Prioritize characters with high potential and synergistic abilities
+- **Critical tip**: Stay updated with the latest game updates and community discussions
+- **Top choice**: Characters with balanced stats and unique abilities
+</Callout>
+
+<Section icon={Map} title="Introduction to Merge a Black Hole">
+
+Merge a Black Hole is a popular Roblox game that focuses on character progression and strategic gameplay. In this guide, we will provide you with the ultimate 2026 Tier List and meta picks to help you succeed in the game.
+
+</Section>
+
+<Section icon={Swords} title="Tier List">
+
+This section will present the top-tier characters and their strengths in the game. We will analyze their stats, abilities, and potential for growth to help you make informed decisions.
+
+</Section>
+
+<Section icon={Trophy} title="Meta Picks">
+
+In addition to the Tier List, we will also provide you with the meta picks for the game. These are the characters and strategies that are currently performing well in the game and are recommended for players looking to stay ahead of the competition.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Building a Strong Character">
+
+This section will guide you through the process of building a strong character in Merge a Black Hole. We will provide you with tips on choosing the right abilities, upgrading your character, and maximizing your potential.
+
+</Section>
+
+<Section icon={Shield} title="Farming and Resource Management">
+
+Farming and resource management are crucial aspects of Merge a Black Hole. This section will provide you with tips on how to efficiently farm resources and manage your inventory to ensure you have the resources you need for character upgrades.
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion">
+
+By following this guide, you will be well-equipped to succeed in Merge a Black Hole. Remember to stay updated with the latest game updates and community discussions to stay ahead of the competition.
+
+</Section>
+
+<Section icon={FAQ} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best character to start with in Merge a Black Hole?",
+    answer: "The best character to start with depends on your playstyle and preferences. We recommend starting with characters that have high potential and synergistic abilities."
+  },
+  {
+    question: "How can I upgrade my character in Merge a Black Hole?",
+    answer: "To upgrade your character, you need to collect resources and use them to unlock and upgrade abilities. You can also gain experience points by playing the game and leveling up your character."
+  },
+  {
+    question: "Where can I find the latest updates for Merge a Black Hole?",
+    answer: "You can find the latest updates for Merge a Black Hole on the official Roblox game page and in the game's community forums."
+  }
+]} />
+
+</Section>
+```
+
+---
+
+## 📝 执行步骤
+
+1. 评估merged_data中每个来源的相关性
+2. 只使用相关内容
+3. 根据关键词确定合适的 category（小写+连字符格式）
+4. 选择合适的 Lucide 图标
+5. 设计3-5个表格展示关键信息
+6. 以主编视角撰写
+7. 用 Section 组件包裹每个章节
+8. 嵌入1-2个相关视频（使用 YouTubeEmbed 组件）
+9. 添加权威外链
+10. **强制组件检查（生成后按顺序执行）**：
+    a. 用文本编辑器搜索 `<Section` → 数量 = N
+    b. 搜索 `</Section>` → 数量必须 = N（如果不等，立即修复）
+    c. 搜索 `<Step` → 数量 = M
+    d. 搜索 `</Step>` → 数量必须 = M（如果不等，立即修复）
+    e. 搜索 `<Card` → 数量 = K
+    f. 搜索 `</Card>` → 数量必须 = K（如果不等，立即修复）
+    g. 从上到下扫描，确认没有 `<Section>...<Section>` 模式（Section 嵌套）
+    h. 确认所有 Steps 内的 Step 都在 `</Steps>` 之前关闭
+11. **表格格式检查（生成后执行）**：
+    a. 检查每个表格行的字符长度（应该 < 1000 字符）
+    b. 检查每个单元格内容长度（应该 < 300 字符）
+    c. 检查是否有大量连续空格（超过 5 个连续空格视为异常）
+    d. 如果发现异常，重新生成该表格，使用更简洁的内容

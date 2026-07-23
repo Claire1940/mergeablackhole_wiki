@@ -1,0 +1,127 @@
+## 🚨 强制要求（必须严格遵守 - 最高优先级）
+
+### 组件使用强制要求
+每篇文章必须至少使用以下所有组件各一次：
+- ✅ **Section** - 每个主要章节（必用，通常 4-6 个）
+- ✅ **Callout** - 至少 2-3 个（使用不同 type: tip/warning/info/success）
+  - **重要**：每个 Section 内部都必须至少使用一次 Callout 组件
+- ✅ **CardGrid/Card** - 至少 1 组（3-4 个卡片，展示并列对比）
+- ✅ **Steps** - 至少 1 个步骤流程（3-5 个步骤）
+- ✅ **Checklist** - 至少 1 个清单（3-5 个项目）
+- ✅ **FAQ** - 至少 1 个（3-4 组问答）
+- ✅ **表格** - 至少 2-5 个
+
+### 视频使用强制规则
+- ⚠️ **同一个视频只能使用一次**，禁止在文章中多次嵌入相同的视频
+- 只嵌入与主关键词高度相关的视频（1-2个最相关的）
+- 如果所有视频都不相关，不嵌入任何视频
+
+### Callout 组件使用规则
+- **每个 Section 内部都必须至少使用一次 Callout 组件**
+- 使用不同的 type 类型：tip、warning、info、success
+- 用于突出重要提示、警告信息、专业建议
+
+---
+
+## 🎯 文章标题生成
+
+**主关键词**：merge a black hole
+
+**文章标题**：
+"Master the Art of Black Hole Merging: A Comprehensive Guide to merge a black hole"
+
+---
+
+## 📝 文章内容撰写
+
+**metadata**:
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Master the Art of Black Hole Merging: A Comprehensive Guide to merge a black hole",
+  description: "Discover the secrets of black hole merging in merge a black hole with our in-depth guide, complete with tips, strategies, and more.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Black+Hole+Merging+Guide",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+}
+```
+
+**TL;DR Callout**:
+
+```jsx
+<Callout type="info" title="Quick Guide">
+- **Understand Black Hole Mechanics**: Learn how black holes work and how to merge them effectively.
+- **Optimize Your Strategy**: Find out the best methods to merge black holes for maximum power.
+- **Master Advanced Techniques**: Discover advanced merging techniques and strategies to dominate the game.
+- **Stay Updated**: Keep up with the latest black hole merging news and updates.
+</Callout>
+```
+
+**Section 1: Introduction to Black Hole Merging**
+
+```jsx
+<Section icon={Map} title="Introduction to Black Hole Merging">
+Black hole merging is a crucial aspect of gameplay in merge a black hole. It allows players to combine black holes to create more powerful versions, leading to increased damage and strategic advantages. This section will provide an overview of black hole merging and its importance in the game.
+```
+
+**Section 2: Basic Black Hole Merging**
+
+```jsx
+<Section icon={Swords} title="Basic Black Hole Merging">
+This section will cover the basic steps and techniques for merging black holes. We will discuss the initial setup, the process of merging, and the importance of resource management.
+```
+
+**Callout (Section 2)**:
+
+```jsx
+<Callout type="tip" title="Pro Tip">
+When merging black holes, always prioritize merging similar types of black holes for the best results.
+</Callout>
+```
+
+**Section 3: Advanced Black Hole Merging**
+
+```jsx
+<Section icon={Trophy} title="Advanced Black Hole Merging">
+This section will delve into more advanced black hole merging techniques. We will cover strategies for creating powerful black holes, optimizing your merging process, and staying ahead of the competition.
+```
+
+**Section 4: Black Hole Merging FAQ**
+
+```jsx
+<Section icon={FAQ} title="Black Hole Merging FAQ">
+Here are some frequently asked questions about black hole merging in merge a black hole. We will provide answers to help you understand the process and improve your gameplay.
+```
+
+**FAQ Component**:
+
+```jsx
+<FAQ items={[
+  {
+    question: "What is the best way to start merging black holes?",
+    answer: "Start by merging similar types of black holes, such as micro holes with micro holes, to create stronger versions."
+  },
+  {
+    question: "How do I know when to merge black holes?",
+    answer: "Merge black holes when you have enough resources and when it will result in a significant increase in power."
+  },
+  {
+    question: "Can I merge any two black holes together?",
+    answer: "No, you can only merge black holes of the same type or those that are compatible."
+  }
+]} />
+```
+
+**End of Article**
+
+This article structure and content are based on the provided guidelines and requirements. Adjustments may be needed based on the specific content and details from the `merged_data` source.

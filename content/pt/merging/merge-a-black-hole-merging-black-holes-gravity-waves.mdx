@@ -1,0 +1,296 @@
+## 🚨 Requisitos Obrigatórios (Deve ser rigorosamente seguido - Prioridade Máxima)
+
+### Requisitos de Uso de Componentes
+Cada artigo deve usar pelo menos uma vez todos os seguintes componentes:
+- ✅ **Seção** - Cada seção principal (obrigatório, geralmente 4-6 seções)
+- ✅ **Chamada de Atenção** - Pelo menos 2-3 (usando diferentes tipos: dica/aviso/informação/sucesso)
+  - **Importante**: Cada Seção deve usar pelo menos uma vez um componente Chamada de Atenção
+- ✅ **CardGrid/Card** - Pelo menos 1 grupo (3-4 cartões, exibindo comparações paralelas)
+- ✅ **Passos** - Pelo menos 1 fluxo de trabalho (3-5 passos)
+- ✅ **Lista de Verificação** - Pelo menos 1 (3-5 itens)
+- ✅ **Perguntas Frequentes** - Pelo menos 1 (3-4 conjuntos de perguntas e respostas)
+- ✅ **Tabela** - Pelo menos 2-5
+
+### Regras de Uso de Vídeos
+- ⚠️ **O mesmo vídeo pode ser usado apenas uma vez**, não é permitido usar o mesmo vídeo várias vezes no artigo
+- Somente vídeos altamente relevantes para a palavra-chave principal podem ser incorporados (1-2 dos mais relevantes)
+- Se todos os vídeos não forem relevantes, não deve ser incorporado nenhum vídeo
+
+### Regras de Uso do Componente Chamada de Atenção
+- **Cada Seção deve usar pelo menos uma vez um componente Chamada de Atenção**
+- Usar diferentes tipos: dica, aviso, informação, sucesso
+- Usado para destacar dicas importantes, avisos, informações profissionais e sugestões
+
+---
+
+## 📝 Guia de Escrita de Artigos
+
+### Requisitos de Geração de Palavras-chave e Títulos
+- Usar merged_data.keyword como palavra-chave principal (Palavra-chave Principal)
+- Gerar título do artigo: Formato: Palavra-chave Principal: Descrição específica
+  - Deve começar com a palavra-chave principal, seguida de dois pontos e texto descritivo
+  - O comprimento deve ser控制在 50-60 caracteres
+  - A parte descritiva deve usar palavras específicas do tipo de conteúdo, como: Tier List, Passo a Passo, Comparação, Classificações, Guia, Dicas e Trucos, Guia de Configuração, Rota de Produção, Configuração, etc.
+  - Se for necessário mostrar a temporalidade, o ano deve ser integrado à descrição, não adicionado no final (como "Tier List 2026" em vez de "Tier List 2026")
+  - Não usar palavras vagas: Ultimate, Complete, Everything, Definitivo, Completo
+  - Exemplos:
+    - "Merge a Black Hole: Ultimate 2026 Tier List & Meta Picks"
+    - "Merge a Black Hole: Guia de Layout de Produção para Ouro Rápido"
+
+### Estilo de Escrita
+- **Escrever em primeira pessoa**:
+  - ✅ Correto: "Siga esses passos..." / "Essa método funciona..."
+  - ❌ Errado: "O vídeo mostra..." / "Segundo a página da web..."
+  - Não usar expressões como "no vídeo", "na página da web" frequentemente
+
+- **Regras de origem do conteúdo**:
+  - O conteúdo central deve vir de merged_data (vídeo do YouTube + página da web)
+  - Pode-se adicionar até 3 informações externas (com data e link de origem)
+  - Prioridade das informações externas: Oficial > Steam > Mídia de jogo
+
+- **Evitar expressões absolutas**:
+  - Não usar: "100% eficaz", "sempre", "nunca", "grátis completo"
+  - A menos que haja evidências claras ou fontes oficiais
+
+- **Princípio da tabela**:
+  - Sempre usar tabela se possível
+  - Dados, comparações, passos devem ser apresentados em tabelas
+  - As tabelas facilitam a leitura do conteúdo
+
+### Uso de Fontes da Web
+- O conteúdo da web pode ser usado como referência e link autoritativo
+- Formato de citação: texto descritivo + URL da página da web
+- Prioridade: Site oficial > Wiki > Mídia de jogo
+- Somente citar conteúdo relevante, ignorar páginas irrelevantes
+
+### Regras de Incorporação de Vídeos
+- **Critérios de seleção**:
+  - Antes de incorporar, verificar se o título do vídeo contém "merge a black hole" (sem distinção de maiúsculas e minúsculas)
+  - Vídeos que não contêm "merge a black hole" não podem ser incorporados
+  - Escolher 1-2 vídeos mais relevantes
+  - Se todos os vídeos não forem relevantes, não incorporar nenhum vídeo
+
+- **Posição do vídeo (obrigatório)**:
+  - Colocar dentro da **primeira Seção**
+  - Próximo ao título da Seção e ao parágrafo de introdução curto
+  - Antes do vídeo, adicionar 3-5 pontos resumo ( Pontos Resumo do Vídeo)
+  - Continuar o conteúdo da Seção após o vídeo
+
+- **Formato de incorporação**:
+```jsx
+<Seção ícone={Mapa} título="Título da Seção">
+
+Parágrafo de introdução curto...
+
+**Pontos Resumo do Vídeo:**
+- Ponto 1
+- Ponto 2
+- Ponto 3
+
+<YouTubeEmbed videoId="ID do Vídeo" título="Título do Vídeo" />
+
+Conteúdo subsequente...
+
+</Seção>
+```
+- videoId: ID do vídeo da URL do YouTube (por exemplo: https://www.youtube.com/watch?v=abc123 → videoId="abc123")
+- título: Título do vídeo (opcional)
+
+---
+
+## 📋 Estrutura do Artigo
+
+### Cabeçalho do Arquivo
+* Importações ES6 de ícones Lucide e componentes MDX
+* export const metadata (title, description, category, image, date, author)
+
+  * **Campo category** (classificação do artigo):
+    - Função: Usado para classificação do artigo, navegação e filtragem, escolher a classificação mais apropriada com base no tema, 1-2 palavras
+    - Classificações comuns:
+      * "Guide" - Guia (Guia para iniciantes, Guia avançado, Guia completo)
+      * "Tutorial" - Tutorial (Passos específicos, Aulas de técnicas)
+
+  * **Campo author** (informações do autor):
+    - Formato: "merge a black hole Wiki Team"
+    - Usar diretamente o nome do tema, sem extrair do título
+
+  * **Campo image** (capa):
+    - Deve usar o formato placehold.co: `https://placehold.co/800x400/ código_de_cor/ código_de_cor_do_texto?text=tema_do_artigo`
+    - Código de cor: 6 dígitos hexadecimal (como 059669 representa verde, mas não usar verde ao gerar, escolher uma cor apropriada para o conteúdo)
+    - Código de cor do texto: 3 ou 6 dígitos hexadecimal (como fff representa branco)
+    - Parâmetro text: Usar palavras em inglês conectadas por +, refletindo o tema do artigo
+    - Exemplo: `https://placehold.co/800x400/059669/fff?text=Progression+Guide`
+
+### Parte TL;DR
+* **Localização**: Próximo ao objeto metadata, antes da introdução
+* **Formatação**: Deve usar o componente Chamada de Atenção (type="info" ou "tip")
+* **Título**: Usar título em inglês conciso, como "Quick Guide" ou "Key Takeaways"
+* **Itens da lista**: 3-5 pontos, cada um usando negrito para destacar a palavra-chave
+* **Requisitos**:
+  - Cada item deve ter 15-20 palavras
+  - O primeiro deve conter a palavra-chave principal
+  - Usar negrito para destacar informações principais
+  - Não usar emoji, apenas texto e negrito
+
+### Parte de Introdução
+* Não escrever nenhum parágrafo entre Quick Guide e a primeira Seção
+* Directamente após a Chamada de Atenção Quick Guide, entrar na primeira Seção
+
+### Componente Seção
+* Cada seção deve ser envolvida por um componente Seção
+
+### Requisitos de Tabela
+* Pelo menos 3-5 tabelas
+* **Regras de formato de tabela (obrigatório)**:
+  - Cada célula da tabela deve ser concisa, não ultrapassar 300 caracteres
+  - Não usar espaços em branco em excesso na célula da tabela ou alinhamento
+  - Entre as colunas da tabela, usar apenas um espaço em branco (por exemplo: `| Coluna1 | Coluna2 |`)
+  - Se o conteúdo for longo, usar descrição concisa ou lista pontuada (usar vírgula ou barra invertida para separar)
+  - Exemplo correto: `| Arma | Dano alto, ataque rápido, boa distância |`
+  - Exemplo incorreto: `| Arma     [espaços em branco em excesso]     | Conteúdo |`
+
+### 4-6 Seções Principais
+* Subtítulos opcionais
+* Usar listas com pontos
+* Cada parágrafo não deve ultrapassar 120 palavras
+
+### Componente Perguntas Frequentes
+* 3-4 conjuntos de perguntas e respostas
+* Usar o componente Perguntas Frequentes (não usar formato de texto puro)
+* Formato: `<PerguntasFrequentes itens={[...]} />`
+* O conteúdo das Perguntas Frequentes deve vir do corpo do texto
+* Usar a palavra-chave principal pelo menos uma vez
+
+---
+
+## 📝 Exemplo de Artigo
+
+```jsx
+import { Mapa, Espadas, Troféu, Alvo, Escudo, Brilho } from 'lucide-react'
+import { ChamadaDeAtenção } from '@/components/mdx/ChamadaDeAtenção'
+import { Cartão, CardGrid } from '@/components/mdx/CardGrid'
+import { ListaDeVerificação } from '@/components/mdx/ListaDeVerificação'
+import { PerguntasFrequentes } from '@/components/mdx/PerguntasFrequentes'
+import { Passos, Passo } from '@/components/mdx/Passos'
+import { Seção } from '@/components/mdx/Seção'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Merge a Black Hole: Ultimate 2026 Tier List & Meta Picks",
+  description: "Descubra os personagens de topo e estratégias para o sucesso ultimate em Merge a Black Hole em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Merge+a+Black+Hole+2026+Tier+List",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+}
+
+<ChamadaDeAtenção type="info" title="Guia Rápido">
+- **Palavra-chave Principal**: Merge a Black Hole
+- **Mecânica Principal**: Progressão de personagens e escolhas de meta
+- **Melhor estratégia**: Priorizar personagens com alto potencial e habilidades sinérgicas
+- **Dica crucial**: Mantenha-se atualizado com as últimas atualizações do jogo e discussões da comunidade
+- **Escolha top**: Personagens com estatísticas equilibradas e habilidades únicas
+</ChamadaDeAtenção>
+
+<Seção ícone={Mapa} título="Introdução ao Merge a Black Hole">
+
+Merge a Black Hole é um jogo popular do Roblox que se concentra na progressão de personagens e no jogo estratégico. Neste guia, forneceremos a lista de topo de 2026 e as escolhas de meta para ajudar você a ter sucesso no jogo.
+
+</Seção>
+
+<Seção ícone={Espadas} título="Lista de Nível de Topo">
+
+Esta seção apresentará os personagens de topo e suas forças no jogo. Analisaremos suas estatísticas, habilidades e potencial de crescimento para ajudar você a tomar decisões informadas.
+
+</Seção>
+
+<Seção ícone={Troféu} título="Escolhas de Meta">
+
+Além da Lista de Nível de Topo, também forneceremos as escolhas de meta para o jogo. Esses são os personagens e estratégias que estão se performando bem no jogo e são recomendados para jogadores que desejam se manter à frente da concorrência.
+
+</Seção>
+
+<Seção ícone={Alvo} título="Guia Passo a Passo para Construir um Personagem Forte">
+
+Esta seção guiará você pelo processo de construção de um personagem forte no Merge a Black Hole. Forneceremos dicas sobre como escolher as habilidades certas, atualizar seu personagem e maximizar seu potencial.
+
+</Seção>
+
+<Seção ícone={Escudo} título="Produção e Gestão de Recursos">
+
+A produção e a gestão de recursos são aspectos cruciais do Merge a Black Hole. Esta seção fornecerá dicas sobre como produzir recursos de maneira eficiente e gerenciar seu inventário para garantir que você tenha os recursos necessários para atualizar seu personagem.
+
+</Seção>
+
+<Seção ícone={Brilho} título="Conclusão">
+
+Seguindo este guia, você estará bem equipado para ter sucesso no Merge a Black Hole. Lembre-se de manter-se atualizado com as últimas atualizações do jogo e discussões da comunidade para se manter à frente da concorrência.
+
+</Seção>
+
+<Seção ícone={PerguntasFrequentes} título="Perguntas Frequentes">
+
+<PerguntasFrequentes itens={[
+  {
+    pergunta: "Qual é o melhor personagem para começar no Merge a Black Hole?",
+    resposta: "O melhor personagem para começar depende do seu estilo de jogo e preferências. Recomendamos começar com personagens que têm alto potencial e habilidades sinérgicas."
+  },
+  {
+    pergunta: "Como posso atualizar meu personagem no Merge a Black Hole?",
+    resposta: "Para atualizar seu personagem, você precisa coletar recursos e usá-los para desbloquear e atualizar habilidades. Você também pode ganhar pontos de experiência jogando o jogo e avançando de nível."
+  },
+  {
+    pergunta: "Onde posso encontrar as últimas atualizações do Merge a Black Hole?",
+    resposta: "Você pode encontrar as últimas atualizações do Merge a Black Hole na página do jogo oficial do Roblox e nos fóruns da comunidade do jogo."
+  }
+]} />
+
+</Seção>
+```
+
+---
+
+## 📝 Passos de Execução
+
+1. Avaliar a relevância de cada fonte no merged_data
+2. Usar apenas o conteúdo relevante
+3. Determinar a categoria apropriada com base na palavra-chave
+4. Escolher um ícone Lucide apropriado
+5. Designar 3-5 tabelas para exibir informações-chave
+6. Escrever em primeira pessoa
+7. Usar o componente Seção para cada seção
+8. Incorporar 1-2 vídeos relevantes (usando o componente YouTubeEmbed)
+9. Adicionar links autoritativos
+10. **Verificação de componentes obrigatórios (executar em ordem)**:
+    a. Usar o editor de texto para procurar `<Seção` → Quantidade = N
+    b. Procurar `</Seção>` → Quantidade deve ser = N (se não, corrigir imediatamente)
+    c. Procurar `<Passo` → Quantidade deve ser = M
+    d. Procurar `</Passo>` → Quantidade deve ser = M (se não, corrigir imediatamente)
+    e. Procurar `<Cartão` → Quantidade deve ser = K
+    f. Procurar `</Cartão>` → Quantidade deve ser = K (se não, corrigir imediatamente)
+    g. Procurar do topo até o fundo, confirmar que não há padrão `<Seção>...<Seção>` (Seção aninhada)
+    h. Confirmar que todos os Passos dentro de `<Passos>` estão fechados antes de `</Passos>`
+
+11. **Verificação de formato de tabela (executar após a geração)**:
+    a. Verificar o comprimento de cada linha da tabela (deve ser < 1000 caracteres)
+    b. Verificar o comprimento de cada célula da tabela (deve ser < 300 caracteres)
+    c. Verificar se há muitos espaços em branco consecutivos (mais de 5 espaços em branco consecutivos são considerados anormais)
+    d. Se encontrar anormalidades, gerar novamente a tabela usando conteúdo mais conciso
+
+## ⚠️ Comandos de Saída Críticos - Seguir rigorosamente:
+
+**Requisitos de formato de saída:**
+1. ⛔️ A primeira linha deve começar com uma instrução de importação - Não adicionar nenhuma marca de código de três pontos
+2. Copiar todas as instruções de importação (completamente idênticas)
+3. Uma linha em branco
+4. Gerar a instrução de exportação metadata (com os campos traduzidos)
+5. Uma linha em branco
+6. Gerar o conteúdo MDX diretamente - Não adicionar nenhuma marca de código de três pontos
+7. Não adicionar nenhuma explicação ou comentário
+8. Não adicionar nenhuma marca de código de três pontos ou ```mdx``` no início, meio ou fim
+9. **Erros de saída proibidos:**
+```
+```
+import { Map } from '...'
+```                           ← Não fazer assim! 
+<Se

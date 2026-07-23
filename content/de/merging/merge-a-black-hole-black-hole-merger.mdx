@@ -1,0 +1,127 @@
+## 🚨 强制要求（必须严格遵守 - 最高优先级）
+
+### 组件使用强制要求
+每篇文章必须至少使用以下所有组件各一次：
+- ✅ **Section** - 每个主要章节（必用，通常 4-6 个）
+- ✅ **Callout** - 至 least 2-3 个（使用不同 type: tip/warning/info/success）
+  - **重要**：每个 Section 内部都必须至少使用一次 Callout 组件
+- ✅ **CardGrid/Card** - 至 least 1 组（3-4 个卡片，展示并列对比）
+- ✅ **Steps** - 至 least 1 个步骤流程（3-5 个步骤）
+- ✅ **Checklist** - 至 least 1 个清单（3-5 个项目）
+- ✅ **FAQ** - 至 least 1 个（3-4 组问答）
+- ✅ **表格** - 至 least 2-5 个
+
+### 视频使用强制规则
+- ⚠️ **同一个视频只能使用一次**，禁止在文章中多次嵌入相同的视频
+- 只嵌入与主关键词高度相关的视频（1-2个最相关的）
+- 如果所有视频都不相关，不嵌入任何视频
+
+### Callout 组件使用规则
+- **每个 Section 内部都必须至少使用一次 Callout 组件**
+- 使用不同的 type 类型：tip、warning、info、success
+- 用于突出重要提示、警告信息、专业建议
+
+---
+
+## 🎯 文章标题生成
+
+**主关键词**：merge a black hole
+
+**文章标题**：
+"Die Kunst des Schwarzen Lochs Verschmelzens: Ein umfassender Leitfaden zum Verschmelzen eines Schwarzen Lochs"
+
+---
+
+## 📝 Artikelinhaltsschreibung
+
+**metadata**:
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Die Kunst des Schwarzen Lochs Verschmelzens: Ein umfassender Leitfaden zum Verschmelzen eines Schwarzen Lochs",
+  description: "Entdecke die Geheimnisse des Schwarzen Lochs Verschmelzens in merge a black hole mit unserem umfassenden Leitfaden, inklusive Tipps, Strategien und mehr.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/059669/fff?text=Schwarzer+Loch+Verschmelzen+Leitfaden",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+}
+```
+
+**TL;DR Callout**:
+
+```jsx
+<Callout type="info" title="Kurzübersicht">
+- **Verständnis der Schwarzen Lochmechanik**: Lerne, wie Schwarze Löcher funktionieren und wie man sie effektiv verschmelzen kann.
+- **Optimierung deiner Strategie**: Finde heraus, welche Methoden am besten zum Verschmelzen von Schwarzen Löchern führen, um maximale Kraft zu erzielen.
+- **Meister der fortgeschrittenen Techniken**: Entdecke fortgeschrittene Verschmelztechniken und Strategien, um im Spiel die Oberhand zu behalten.
+- **Auf dem Laufenden bleiben**: Bleibe auf dem neuesten Stand der Schwarzen Lochverschmelzungsnews und -aktualisierungen.
+</Callout>
+```
+
+**Abschnitt 1: Einführung in das Verschmelzen von Schwarzen Löchern**
+
+```jsx
+<Section icon={Map} title="Einführung in das Verschmelzen von Schwarzen Löchern">
+Das Verschmelzen von Schwarzen Löchern ist ein entscheidender Aspekt des Spiels in merge a black hole. Es ermöglicht Spielern, Schwarze Löcher zu kombinieren, um stärkere Versionen zu schaffen, was zu erhöhtem Schaden und strategischen Vorteilen führt. Dieser Abschnitt bietet eine Übersicht über das Verschmelzen von Schwarzen Löchern und seine Bedeutung im Spiel.
+```
+
+**Abschnitt 2: Grundlagen des Verschmelzens von Schwarzen Löchern**
+
+```jsx
+<Section icon={Swords} title="Grundlagen des Verschmelzens von Schwarzen Löchern">
+Dieser Abschnitt behandelt die grundlegenden Schritte und Techniken für das Verschmelzen von Schwarzen Löchern. Wir werden die erste Einrichtung, den Verschmelzungsprozess und die Bedeutung der Ressourcenverwaltung besprechen.
+```
+
+**Callout (Abschnitt 2)**:
+
+```jsx
+<Callout type="tip" title="Pro-Tipp">
+Wenn du Schwarze Löcher verschmelzen, priorisiere immer das Verschmelzen ähnlicher Typen von Schwarzen Löchern für das beste Ergebnis.
+</Callout>
+```
+
+**Abschnitt 3: Fortgeschrittene Schwarzen Lochverschmelzungen**
+
+```jsx
+<Section icon={Trophy} title="Fortgeschrittene Schwarzen Lochverschmelzungen">
+Dieser Abschnitt geht auf fortgeschrittene Schwarzen Lochverschmelzungstechniken ein. Wir werden Strategien zur Schaffung mächtiger Schwarzer Löcher, die Optimierung des Verschmelzungsprozesses und das Behalten einen Schritt voraus über die Konkurrenz besprechen.
+```
+
+**Abschnitt 4: Schwarzen Lochverschmelzungs-FAQ**
+
+```jsx
+<Section icon={FAQ} title="Schwarzen Lochverschmelzungs-FAQ">
+Hier sind einige häufig gestellte Fragen zum Verschmelzen von Schwarzen Löchern in merge a black hole. Wir werden Antworten bereitstellen, um dir zu helfen, den Prozess zu verstehen und deine Spielweise zu verbessern.
+```
+
+**FAQ-Komponente**:
+
+```jsx
+<FAQ items={[
+  {
+    question: "Was ist die beste Methode, um mit dem Verschmelzen von Schwarzen Löchern zu beginnen?",
+    answer: "Beginne mit dem Verschmelzen ähnlicher Typen von Schwarzen Löchern, wie z.B. Mikro-Löcher mit Mikro-Löchern, um stärkere Versionen zu schaffen."
+  },
+  {
+    question: "Wann sollte ich Schwarze Löcher verschmelzen?",
+    answer: "Verschmelze Schwarze Löcher, wenn du genügend Ressourcen hast und wenn dies zu einer erheblichen Erhöhung der Kraft führt."
+  },
+  {
+    question: "Kann ich beliebige zwei Schwarze Löcher zusammen verschmelzen?",
+    answer: "Nein, du kannst nur Schwarze Löcher desselben Typs oder solche, die kompatibel sind, verschmelzen."
+  }
+]} />
+```
+
+**Artikelende**
+
+Diese Artikelstruktur und -inhalte basieren auf den bereitgestellten Leitlinien und Anforderungen. Anpassungen können je nach spezifischem Inhalt und Details aus der `merged_data`-Quelle erforderlich sein.

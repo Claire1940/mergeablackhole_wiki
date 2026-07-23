@@ -1,1 +1,682 @@
-{}
+{
+  "de": {
+    "codes": [
+      {
+        "slug": "merge-a-black-hole-codes",
+        "file": "merge-a-black-hole-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
+      }
+    ],
+    "facts": [
+      {
+        "slug": "merge-a-black-hole-energy-released",
+        "file": "merge-a-black-hole-energy-released"
+      },
+      {
+        "slug": "merge-a-black-hole-gravitational-waves",
+        "file": "merge-a-black-hole-gravitational-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-ligo",
+        "file": "merge-a-black-hole-ligo"
+      },
+      {
+        "slug": "merge-a-black-hole-mass-after-merger",
+        "file": "merge-a-black-hole-mass-after-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-nasa",
+        "file": "merge-a-black-hole-nasa"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "merge-a-black-hole-beginner-guide",
+        "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-guide",
+        "file": "merge-a-black-hole-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-how-to-play",
+        "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-progression-guide",
+        "file": "merge-a-black-hole-progression-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-strategies",
+        "file": "merge-a-black-hole-strategies"
+      },
+      {
+        "slug": "merge-a-black-hole-tips",
+        "file": "merge-a-black-hole-tips"
+      },
+      {
+        "slug": "merge-a-black-hole-update-guide",
+        "file": "merge-a-black-hole-update-guide"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "merge-a-black-hole-best-upgrades",
+        "file": "merge-a-black-hole-best-upgrades"
+      },
+      {
+        "slug": "merge-a-black-hole-biggest-black-hole",
+        "file": "merge-a-black-hole-biggest-black-hole"
+      },
+      {
+        "slug": "merge-a-black-hole-level-guide",
+        "file": "merge-a-black-hole-level-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-rebirth-guide",
+        "file": "merge-a-black-hole-rebirth-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-unlock-guide",
+        "file": "merge-a-black-hole-unlock-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-upgrade-guide",
+        "file": "merge-a-black-hole-upgrade-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-gif",
+        "file": "merge-a-black-hole-black-hole-merger-gif"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-sound",
+        "file": "merge-a-black-hole-black-hole-merger-sound"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger",
+        "file": "merge-a-black-hole-black-hole-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-can-black-holes-merge",
+        "file": "merge-a-black-hole-can-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-how-do-black-holes-merge",
+        "file": "merge-a-black-hole-how-do-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-merge-two-black-holes",
+        "file": "merge-a-black-hole-merge-two-black-holes"
+      },
+      {
+        "slug": "merge-a-black-hole-merging-black-holes-gravity-waves",
+        "file": "merge-a-black-hole-merging-black-holes-gravity-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-what-happens-when-two-black-holes-merge",
+        "file": "merge-a-black-hole-what-happens-when-two-black-holes-merge"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "merge-a-black-hole-daily-rewards",
+        "file": "merge-a-black-hole-daily-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-free-rewards",
+        "file": "merge-a-black-hole-free-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-redeem-rewards",
+        "file": "merge-a-black-hole-redeem-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-rewards",
+        "file": "merge-a-black-hole-rewards"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "merge-a-black-hole-animation",
+        "file": "merge-a-black-hole-animation"
+      },
+      {
+        "slug": "merge-a-black-hole-gameplay",
+        "file": "merge-a-black-hole-gameplay"
+      },
+      {
+        "slug": "merge-a-black-hole-trailer",
+        "file": "merge-a-black-hole-trailer"
+      },
+      {
+        "slug": "merge-a-black-hole-walkthrough",
+        "file": "merge-a-black-hole-walkthrough"
+      }
+    ]
+  },
+  "en": {
+    "codes": [
+      {
+        "slug": "merge-a-black-hole-codes",
+        "file": "merge-a-black-hole-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
+      }
+    ],
+    "facts": [
+      {
+        "slug": "merge-a-black-hole-energy-released",
+        "file": "merge-a-black-hole-energy-released"
+      },
+      {
+        "slug": "merge-a-black-hole-gravitational-waves",
+        "file": "merge-a-black-hole-gravitational-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-ligo",
+        "file": "merge-a-black-hole-ligo"
+      },
+      {
+        "slug": "merge-a-black-hole-mass-after-merger",
+        "file": "merge-a-black-hole-mass-after-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-nasa",
+        "file": "merge-a-black-hole-nasa"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "merge-a-black-hole-beginner-guide",
+        "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-guide",
+        "file": "merge-a-black-hole-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-how-to-play",
+        "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-progression-guide",
+        "file": "merge-a-black-hole-progression-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-strategies",
+        "file": "merge-a-black-hole-strategies"
+      },
+      {
+        "slug": "merge-a-black-hole-tips",
+        "file": "merge-a-black-hole-tips"
+      },
+      {
+        "slug": "merge-a-black-hole-update-guide",
+        "file": "merge-a-black-hole-update-guide"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "merge-a-black-hole-best-upgrades",
+        "file": "merge-a-black-hole-best-upgrades"
+      },
+      {
+        "slug": "merge-a-black-hole-biggest-black-hole",
+        "file": "merge-a-black-hole-biggest-black-hole"
+      },
+      {
+        "slug": "merge-a-black-hole-level-guide",
+        "file": "merge-a-black-hole-level-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-rebirth-guide",
+        "file": "merge-a-black-hole-rebirth-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-unlock-guide",
+        "file": "merge-a-black-hole-unlock-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-upgrade-guide",
+        "file": "merge-a-black-hole-upgrade-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-gif",
+        "file": "merge-a-black-hole-black-hole-merger-gif"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-sound",
+        "file": "merge-a-black-hole-black-hole-merger-sound"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger",
+        "file": "merge-a-black-hole-black-hole-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-can-black-holes-merge",
+        "file": "merge-a-black-hole-can-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-how-do-black-holes-merge",
+        "file": "merge-a-black-hole-how-do-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-merge-two-black-holes",
+        "file": "merge-a-black-hole-merge-two-black-holes"
+      },
+      {
+        "slug": "merge-a-black-hole-merging-black-holes-gravity-waves",
+        "file": "merge-a-black-hole-merging-black-holes-gravity-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-what-happens-when-two-black-holes-merge",
+        "file": "merge-a-black-hole-what-happens-when-two-black-holes-merge"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "merge-a-black-hole-daily-rewards",
+        "file": "merge-a-black-hole-daily-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-free-rewards",
+        "file": "merge-a-black-hole-free-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-redeem-rewards",
+        "file": "merge-a-black-hole-redeem-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-rewards",
+        "file": "merge-a-black-hole-rewards"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "merge-a-black-hole-animation",
+        "file": "merge-a-black-hole-animation"
+      },
+      {
+        "slug": "merge-a-black-hole-gameplay",
+        "file": "merge-a-black-hole-gameplay"
+      },
+      {
+        "slug": "merge-a-black-hole-trailer",
+        "file": "merge-a-black-hole-trailer"
+      },
+      {
+        "slug": "merge-a-black-hole-walkthrough",
+        "file": "merge-a-black-hole-walkthrough"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "merge-a-black-hole-codes",
+        "file": "merge-a-black-hole-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
+      }
+    ],
+    "facts": [
+      {
+        "slug": "merge-a-black-hole-energy-released",
+        "file": "merge-a-black-hole-energy-released"
+      },
+      {
+        "slug": "merge-a-black-hole-gravitational-waves",
+        "file": "merge-a-black-hole-gravitational-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-ligo",
+        "file": "merge-a-black-hole-ligo"
+      },
+      {
+        "slug": "merge-a-black-hole-mass-after-merger",
+        "file": "merge-a-black-hole-mass-after-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-nasa",
+        "file": "merge-a-black-hole-nasa"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "merge-a-black-hole-beginner-guide",
+        "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-guide",
+        "file": "merge-a-black-hole-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-how-to-play",
+        "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-progression-guide",
+        "file": "merge-a-black-hole-progression-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-strategies",
+        "file": "merge-a-black-hole-strategies"
+      },
+      {
+        "slug": "merge-a-black-hole-tips",
+        "file": "merge-a-black-hole-tips"
+      },
+      {
+        "slug": "merge-a-black-hole-update-guide",
+        "file": "merge-a-black-hole-update-guide"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "merge-a-black-hole-best-upgrades",
+        "file": "merge-a-black-hole-best-upgrades"
+      },
+      {
+        "slug": "merge-a-black-hole-biggest-black-hole",
+        "file": "merge-a-black-hole-biggest-black-hole"
+      },
+      {
+        "slug": "merge-a-black-hole-level-guide",
+        "file": "merge-a-black-hole-level-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-rebirth-guide",
+        "file": "merge-a-black-hole-rebirth-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-unlock-guide",
+        "file": "merge-a-black-hole-unlock-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-upgrade-guide",
+        "file": "merge-a-black-hole-upgrade-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-gif",
+        "file": "merge-a-black-hole-black-hole-merger-gif"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-sound",
+        "file": "merge-a-black-hole-black-hole-merger-sound"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger",
+        "file": "merge-a-black-hole-black-hole-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-can-black-holes-merge",
+        "file": "merge-a-black-hole-can-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-how-do-black-holes-merge",
+        "file": "merge-a-black-hole-how-do-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-merge-two-black-holes",
+        "file": "merge-a-black-hole-merge-two-black-holes"
+      },
+      {
+        "slug": "merge-a-black-hole-merging-black-holes-gravity-waves",
+        "file": "merge-a-black-hole-merging-black-holes-gravity-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-what-happens-when-two-black-holes-merge",
+        "file": "merge-a-black-hole-what-happens-when-two-black-holes-merge"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "merge-a-black-hole-daily-rewards",
+        "file": "merge-a-black-hole-daily-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-free-rewards",
+        "file": "merge-a-black-hole-free-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-redeem-rewards",
+        "file": "merge-a-black-hole-redeem-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-rewards",
+        "file": "merge-a-black-hole-rewards"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "merge-a-black-hole-animation",
+        "file": "merge-a-black-hole-animation"
+      },
+      {
+        "slug": "merge-a-black-hole-gameplay",
+        "file": "merge-a-black-hole-gameplay"
+      },
+      {
+        "slug": "merge-a-black-hole-trailer",
+        "file": "merge-a-black-hole-trailer"
+      },
+      {
+        "slug": "merge-a-black-hole-walkthrough",
+        "file": "merge-a-black-hole-walkthrough"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "merge-a-black-hole-codes",
+        "file": "merge-a-black-hole-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
+      }
+    ],
+    "facts": [
+      {
+        "slug": "merge-a-black-hole-energy-released",
+        "file": "merge-a-black-hole-energy-released"
+      },
+      {
+        "slug": "merge-a-black-hole-gravitational-waves",
+        "file": "merge-a-black-hole-gravitational-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-ligo",
+        "file": "merge-a-black-hole-ligo"
+      },
+      {
+        "slug": "merge-a-black-hole-mass-after-merger",
+        "file": "merge-a-black-hole-mass-after-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-nasa",
+        "file": "merge-a-black-hole-nasa"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "merge-a-black-hole-beginner-guide",
+        "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-guide",
+        "file": "merge-a-black-hole-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-how-to-play",
+        "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-progression-guide",
+        "file": "merge-a-black-hole-progression-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-strategies",
+        "file": "merge-a-black-hole-strategies"
+      },
+      {
+        "slug": "merge-a-black-hole-tips",
+        "file": "merge-a-black-hole-tips"
+      },
+      {
+        "slug": "merge-a-black-hole-update-guide",
+        "file": "merge-a-black-hole-update-guide"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "merge-a-black-hole-best-upgrades",
+        "file": "merge-a-black-hole-best-upgrades"
+      },
+      {
+        "slug": "merge-a-black-hole-biggest-black-hole",
+        "file": "merge-a-black-hole-biggest-black-hole"
+      },
+      {
+        "slug": "merge-a-black-hole-level-guide",
+        "file": "merge-a-black-hole-level-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-rebirth-guide",
+        "file": "merge-a-black-hole-rebirth-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-unlock-guide",
+        "file": "merge-a-black-hole-unlock-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-upgrade-guide",
+        "file": "merge-a-black-hole-upgrade-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-gif",
+        "file": "merge-a-black-hole-black-hole-merger-gif"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger-sound",
+        "file": "merge-a-black-hole-black-hole-merger-sound"
+      },
+      {
+        "slug": "merge-a-black-hole-black-hole-merger",
+        "file": "merge-a-black-hole-black-hole-merger"
+      },
+      {
+        "slug": "merge-a-black-hole-can-black-holes-merge",
+        "file": "merge-a-black-hole-can-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-how-do-black-holes-merge",
+        "file": "merge-a-black-hole-how-do-black-holes-merge"
+      },
+      {
+        "slug": "merge-a-black-hole-merge-two-black-holes",
+        "file": "merge-a-black-hole-merge-two-black-holes"
+      },
+      {
+        "slug": "merge-a-black-hole-merging-black-holes-gravity-waves",
+        "file": "merge-a-black-hole-merging-black-holes-gravity-waves"
+      },
+      {
+        "slug": "merge-a-black-hole-what-happens-when-two-black-holes-merge",
+        "file": "merge-a-black-hole-what-happens-when-two-black-holes-merge"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "merge-a-black-hole-daily-rewards",
+        "file": "merge-a-black-hole-daily-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-free-rewards",
+        "file": "merge-a-black-hole-free-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-redeem-rewards",
+        "file": "merge-a-black-hole-redeem-rewards"
+      },
+      {
+        "slug": "merge-a-black-hole-rewards",
+        "file": "merge-a-black-hole-rewards"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "merge-a-black-hole-animation",
+        "file": "merge-a-black-hole-animation"
+      },
+      {
+        "slug": "merge-a-black-hole-gameplay",
+        "file": "merge-a-black-hole-gameplay"
+      },
+      {
+        "slug": "merge-a-black-hole-trailer",
+        "file": "merge-a-black-hole-trailer"
+      },
+      {
+        "slug": "merge-a-black-hole-walkthrough",
+        "file": "merge-a-black-hole-walkthrough"
+      }
+    ]
+  }
+}

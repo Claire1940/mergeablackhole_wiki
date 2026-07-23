@@ -1,0 +1,58 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Merge a Black Hole: The Cosmic Collision Guide",
+  description: "Explore the fascinating collision of a magnetar with a black hole in Merge a Black Hole. Learn the impact and survival strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Black+Hole+Collision",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Magnetar vs Black Hole**: Understand the cosmic collision
+- **Survival Tips**: Essential strategies for players
+- **Impact Analysis**: Study the effects on the galaxy
+- **Video Highlights**: Watch the event unfold
+- **FAQ**: Answers to common questions
+</Callout>
+
+<Section icon={Map} title="Introduction to the Collision">
+Merge a Black Hole presents a unique cosmic event where a magnetar, a collapsed star with an extremely powerful magnetic field, collides with a supermassive black hole. This section provides an overview of the event and its significance in the game.
+</Section>
+
+<Section icon={Swords} title="Understanding the Magnetar">
+A magnetar is a highly magnetized neutron star with a strong magnetic field. Learn about their origin, characteristics, and how they contribute to the collision.
+</Section>
+
+<Section icon={Trophy} title="Impact on the Galaxy">
+The collision has significant effects on the galaxy, including changes in star formation, gravitational waves, and potential new celestial bodies. Explore these impacts in detail.
+</Section>
+
+<Section icon={Target} title="Survival Strategies">
+To navigate the aftermath of the collision, players must adapt their strategies. This section provides tips on how to survive and thrive in the altered galaxy.
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+<FAQ items={[
+  {
+    question: "What is a magnetar?",
+    answer: "A magnetar is a highly magnetized neutron star with a strong magnetic field, formed from the remnants of a supernova."
+  },
+  {
+    question: "How does the collision affect the galaxy?",
+    answer: "The collision can lead to changes in star formation, gravitational waves, and potentially new celestial bodies."
+  },
+  {
+    question: "What are the best survival strategies?",
+    answer: "Adapt your playstyle, focus on resource management, and stay informed about the latest developments in the galaxy."
+  }
+]} />
+</Section>

@@ -1,0 +1,58 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Merge a Black Hole: Guia da Colisão Cósmica",
+  description: "Explore a fascinante colisão de um magnetar com um buraco negro em Merge a Black Hole. Aprenda os impactos e estratégias de sobrevivência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Colisão+de+Buraco+Negro",
+  date: "2026-07-23",
+  author: "Equipe de Wiki de Merge a Black Hole"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Magnetar vs Buraco Negro**: Entenda a colisão cósmica
+- **Dicas de Sobrevivência**: Estratégias essenciais para jogadores
+- **Análise de Impacto**: Estude os efeitos na galáxia
+- **Destaques em Vídeo**: Veja o evento se desenrolar
+- **Perguntas Frequentes**: Respostas para perguntas comuns
+</Callout>
+
+<Section icon={Map} title="Introdução à Colisão">
+Merge a Black Hole apresenta um evento cósmico único onde um magnetar, uma estrela colapsada com um campo magnético extremamente poderoso, colide com um buraco negro supermassivo. Esta seção fornece uma visão geral do evento e de sua importância no jogo.
+</Section>
+
+<Section icon={Swords} title="Entendendo o Magnetar">
+Um magnetar é uma estrela de nêutrons altamente magnetizada com um campo magnético forte. Aprenda sobre sua origem, características e como eles contribuem para a colisão.
+</Section>
+
+<Section icon={Trophy} title="Impacto na Galáxia">
+A colisão tem efeitos significativos na galáxia, incluindo mudanças na formação de estrelas, ondas gravitacionais e possíveis novos corpos celestes. Explore esses impactos em detalhes.
+</Section>
+
+<Section icon={Target} title="Estratégias de Sobrevivência">
+Para navegar nas consequências da colisão, os jogadores devem adaptar suas estratégias. Esta seção fornece dicas de como sobreviver e prosperar na galáxia alterada.
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+<FAQ items={[
+  {
+    question: "O que é um magnetar?",
+    answer: "Um magnetar é uma estrela de nêutrons altamente magnetizada com um campo magnético forte, formada dos restos de uma supernova."
+  },
+  {
+    question: "Como a colisão afeta a galáxia?",
+    answer: "A colisão pode levar a mudanças na formação de estrelas, ondas gravitacionais e possíveis novos corpos celestes."
+  },
+  {
+    question: "Quais são as melhores estratégias de sobrevivência?",
+    answer: "Adapte seu estilo de jogo, foque na gestão de recursos e mantenha-se informado sobre os últimos desenvolvimentos na galáxia."
+  }
+]} />
+</Section>

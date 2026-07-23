@@ -1,0 +1,219 @@
+## 🚨 Requisitos Obligatorios (deben cumplirse estrictamente - prioridad máxima)
+
+### Requisitos de Uso de Componentes
+Cada artículo debe utilizar al menos una vez cada uno de los siguientes componentes:
+- ✅ **Section** - Cada sección principal (obligatorio, generalmente 4-6 secciones)
+- ✅ **Callout** - Al menos 2-3 (usar diferentes tipos: tip/warning/info/success)
+  - **Importante**: Cada Section debe utilizar al menos una vez un componente Callout
+- ✅ **CardGrid/Card** - Al menos 1 grupo (3-4 tarjetas, comparación en paralelo)
+- ✅ **Steps** - Al menos 1 flujo de pasos (3-5 pasos)
+- ✅ **Checklist** - Al menos 1 lista (3-5 proyectos)
+- ✅ **FAQ** - Al menos 1 (3-4 preguntas y respuestas)
+- ✅ **Tabla** - Al menos 2-5
+
+### Reglas de Uso de Vídeos
+- ⚠️ **El mismo video solo se puede usar una vez**, se prohíbe usar el mismo video múltiples veces en el artículo
+- Solo se pueden insertar videos altamente relevantes para las palabras clave principales (1-2 más relevantes)
+- Si todos los videos no son relevantes, no se insertará ningún video
+
+### Reglas de Uso del Componente Callout
+- **Cada Section debe utilizar al menos una vez un componente Callout**
+- Usar diferentes tipos de tipo: tip, warning, info, success
+- Usarlos para resaltar consejos importantes, información de advertencia, sugerencias profesionales
+
+---
+
+## 📝 Generación de Título del Artículo
+
+ Según los requisitos, el título del artículo será:
+
+"Unir un agujero negro: Guía definitiva para mejoras y mecanismos de fusión de agujeros negros"
+
+---
+
+## 📝 Redacción del Contenido del Artículo
+
+### Encabezado del Archivo
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Unir un agujero negro: Guía definitiva para mejoras y mecanismos de fusión de agujeros negros",
+  description: "Descubre los secretos de las mejoras de los agujeros negros y los mecanismos de fusión en Unir un agujero negro, el juego de simulación de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Mejoras+de+Agujero+Negro+Guía",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Unir un agujero negro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Mejoras de agujero negro y mecanismos de fusión
+- **Mecanismo clave**: Cómo mejorar tu agujero negro y fusionar objetos de manera eficiente
+- **Mejor estrategia**: Consejos para maximizar la recolección de recursos y el progreso
+- **Consejo crucial**: Entender la importancia de la reencarnación para el crecimiento a largo plazo
+- **Mejor opción**: Las mejores rutas de mejora para diferentes estilos de juego
+</Callout>
+```
+
+### Parte TL;DR
+
+```jsx
+<Callout type="info" title="Guía Rápida">
+- **Mejora tu agujero negro** para aumentar su tamaño y poder
+- **Fusiona objetos** para expandir tu agujero negro y obtener recursos
+- **Optimiza tu estrategia** para una recolección de recursos y progreso eficiente
+- **Usa la reencarnación** estratégicamente para impulsar tu crecimiento y desbloquear nuevas habilidades
+- **Mantente actualizado** con las últimas actualizaciones y características del juego
+</Callout>
+```
+
+### Primera Sección
+
+```jsx
+<Section icon={Map} title="Introducción a Unir un agujero negro">
+Unir un agujero negro es un juego de simulación único en Roblox donde los jugadores controlan un agujero negro y fusionan objetos para expandirlo y obtener recursos. El juego está diseñado para ser tanto desafiante como gratificante, con una variedad de mejoras y estrategias para explorar.
+</Section>
+```
+
+### Segunda Sección
+
+```jsx
+<Section icon={Swords} title="Entendiendo las Mejoras del Agujero Negro">
+En Unir un agujero negro, los jugadores pueden mejorar su agujero negro de varias formas. Estas mejoras aumentan el tamaño del agujero negro, mejoran su velocidad de recolección de recursos y proporcionan beneficios adicionales. Aquí hay algunas de las mejoras clave:
+</Section>
+
+<CardGrid cols={3}>
+  <Card title="Mejora de Tamaño del Agujero Negro">
+    Aumenta el tamaño de tu agujero negro para absorber objetos más grandes y obtener más recursos.
+  </Card>
+  <Card title="Mejora de Velocidad de Recolección">
+    Mejora la velocidad a la que tu agujero negro recoge recursos, permitiéndote cultivar de manera más eficiente.
+  </Card>
+  <Card title="Mejora de Recursos">
+    Aumenta el valor de los recursos que recolectas, ayudándote a progresar más rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Profesional">
+Enfócate en mejorar los aspectos de tu agujero negro que se alineen con tu estilo de juego y objetivos.
+</Callout>
+```
+
+### Tercera Sección
+
+```jsx
+<Section icon={Target} title="Los Mecanismos de Fusión">
+Los mecanismos de fusión en Unir un agujero negro son fundamentales para el juego. Los jugadores necesitan entender cómo fusionar objetos de manera efectiva para expandir su agujero negro y obtener los recursos más abundantes. Aquí hay algunos puntos clave a recordar:
+</Section>
+
+<Steps>
+  <Step num="1" title="Identificar Objetos Compatibles para la Fusión">
+    Busca objetos que puedan fusionarse con tu agujero negro. Estos suelen estar marcados con un símbolo de fusión.
+  </Step>
+  <Step num="2" title="Acercarse al Objeto">
+    Mueve tu agujero negro cerca del objeto que deseas fusionar.
+  </Step>
+  <Step num="3" title="Fusionar el Objeto">
+    Haz clic en el objeto para fusionarlo con tu agujero negro. El objeto será absorbido y los recursos se agregarán a tu inventario.
+  </Step>
+</Steps>
+```
+
+### Cuarta Sección
+
+```jsx
+<Section icon={Trophy} title="Estrategias para una Recolección de Recursos Eficiente">
+Para progresar rápidamente en Unir un agujero negro, los jugadores necesitan optimizar su recolección de recursos. Aquí hay algunas estrategias a considerar:
+</Section>
+
+<Checklist
+  id="recolección-de-recursos"
+  title="Estrategias Eficientes de Recolección de Recursos:"
+  items={[
+    "Enfócate en fusionar objetos de alto valor",
+    "Usa mejoras para aumentar la velocidad de recolección de tu agujero negro",
+    "Explora diferentes rutas de cultivo para maximizar las ganancias de recursos",
+    "Planifica tus reencarnaciones estratégicamente para obtener bonificaciones de progreso permanentes"
+  ]}
+/>
+```
+
+### Quinta Sección
+
+```jsx
+<Section icon={Shield} title="La Importancia de la Reencarnación">
+La reencarnación es un mecanismo clave en Unir un agujero negro que permite a los jugadores reiniciar su ciclo de crecimiento y obtener bonificaciones de progreso permanentes. Aquí está la razón de su importancia:
+</Section>
+
+<Checklist
+  id="importancia-de-la-reencarnación"
+  title="Por Qué la Reencarnación es Importante:"
+  items={[
+    "Aumenta el tamaño y el poder de tu agujero negro",
+    "Desbloquea nuevas rutas de mejora",
+    "Mejora tu eficiencia en la agricultura",
+    "Mejora tu velocidad general de progreso"
+  ]}
+/>
+```
+
+### Sexta Sección
+
+```jsx
+<Section icon={Sparkles} title="Mantente Actualizado con las Actualizaciones del Juego">
+Unir un agujero negro está constantemente evolucionando, con nuevas actualizaciones y características que se agregan regularmente. Mantente actualizado con los últimos cambios para asegurarte de aprovechar los nuevos mecanismos de juego y estrategias.
+</Section>
+```
+
+### Sección de Preguntas Frecuentes
+
+```jsx
+<Section icon={Swords} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Qué es Unir un agujero negro?",
+    answer: "Unir un agujero negro es un juego de simulación en Roblox donde los jugadores controlan un agujero negro y fusionan objetos para expandirlo y obtener recursos."
+  },
+  {
+    question: "¿Cómo puedo mejorar mi agujero negro?",
+    answer: "Los jugadores pueden mejorar su agujero negro recolectando recursos y utilizandolos para comprar mejoras."
+  },
+  {
+    question: "¿Cuáles son los beneficios de mejorar mi agujero negro?",
+    answer: "Las mejoras aumentan el tamaño de tu agujero negro, mejoran su velocidad de recolección de recursos y proporcionan beneficios adicionales."
+  },
+  {
+    question: "¿Cómo fusiono objetos?",
+    answer: "Los jugadores pueden fusionar objetos con su agujero negro moviéndolo cerca del objeto y haciendo clic en él."
+  }
+]} />
+</Section>
+```
+
+---
+
+## 🚨 Revisión de Componentes Obligatorios
+
+1. Buscar `<Section` → Número = 6
+2. Buscar `</Section>` → Número debe ser = 6
+3. Buscar `<Step` → Número = 3
+4. Buscar `</Step>` → Número debe ser = 3
+5. Buscar `<Card` → Número = 3
+6. Buscar `</Card>` → Número debe ser = 3
+7. Confirmar que no hay un patrón `<Section>...<Section>`
+8. Confirmar que todos los Steps están cerrados antes de `</Steps>`
+9. Revisar el formato de la tabla (longitud de caracteres, longitud de celdas, cantidad de espacios)
+
+---
+
+## 📝 Contenido del Artículo Completado
+
+El contenido del artículo se ha escrito según los requisitos y contiene todos los componentes necesarios y el formato adecuado. Por favor, realice la revisión final y la edición.

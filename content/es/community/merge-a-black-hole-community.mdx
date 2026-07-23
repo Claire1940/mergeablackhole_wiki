@@ -1,0 +1,58 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Unión de un Agujero Negro: Guía de la Colisión Cósmica",
+  description: "Explora la fascinante colisión de un magnetar con un agujero negro en Unión de un Agujero Negro. Aprende sobre el impacto y las estrategias de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Colisión+de+Agujero+Negro",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Unión de un Agujero Negro"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Magnetar vs Agujero Negro**: Entiende la colisión cósmica
+- **Consejos de Supervivencia**: Estrategias esenciales para los jugadores
+- **Análisis de Impacto**: Estudia los efectos en la galaxia
+- **Moments del Video**: Observa cómo se desarrolla el evento
+- **Preguntas Frecuentes**: Respuestas a preguntas comunes
+</Callout>
+
+<Section icon={Map} title="Introducción a la Colisión">
+Unión de un Agujero Negro presenta un evento cósmico único donde un magnetar, una estrella colapsada con un campo magnético extremadamente poderoso, colisiona con un agujero negro supermasivo. Esta sección proporciona una visión general del evento y su importancia en el juego.
+</Section>
+
+<Section icon={Swords} title="Entendiendo el Magnetar">
+Un magnetar es una estrella de neutrones altamente magnetizada con un campo magnético fuerte. Aprende sobre su origen, características y cómo contribuye a la colisión.
+</Section>
+
+<Section icon={Trophy} title="Impacto en la Galaxia">
+La colisión tiene efectos significativos en la galaxia, incluyendo cambios en la formación de estrellas, ondas gravitacionales y posibles nuevos cuerpos celestes. Explora estos impactos en detalle.
+</Section>
+
+<Section icon={Target} title="Estrategias de Supervivencia">
+Para navegar las consecuencias de la colisión, los jugadores deben adaptar sus estrategias. Esta sección proporciona consejos sobre cómo sobrevivir y prosperar en la galaxia alterada.
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Qué es un magnetar?",
+    answer: "Un magnetar es una estrella de neutrones altamente magnetizada con un campo magnético fuerte, formada a partir de los restos de una supernova."
+  },
+  {
+    question: "¿Cómo afecta la colisión a la galaxia?",
+    answer: "La colisión puede llevar a cambios en la formación de estrellas, ondas gravitacionales y posibles nuevos cuerpos celestes."
+  },
+  {
+    question: "¿Cuáles son las mejores estrategias de supervivencia?",
+    answer: "Adapta tu estilo de juego, enfócate en la gestión de recursos y mantente informado sobre los últimos desarrollos en la galaxia."
+  }
+]} />
+</Section>
