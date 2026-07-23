@@ -1,11 +1,501 @@
 {
+  "seo": {
+    "home": {
+      "title": "Merge a Black Hole Wiki - Codes, Upgrades & Leitfaden",
+      "description": "Merge a Black Hole Wiki bietet Roblox-Codes, schwarze Loch-Upgrades, Merging-Strategien, Fortschritts-Tipps, Belohnungen und Anfänger-Guides, um Spielern zu helfen, schneller wachsen zu können.",
+      "keywords": "Merge a Black Hole, Roblox, codes, upgrades, simulator, guide, wiki",
+      "ogTitle": "Merge a Black Hole Wiki - Codes, Upgrades & Leitfaden",
+      "ogDescription": "Merge a Black Hole Wiki bietet Roblox-Codes, schwarze Loch-Upgrades, Merging-Strategien, Fortschritts-Tipps, Belohnungen und Anfänger-Guides, um Spielern zu helfen, schneller wachsen zu können.",
+      "twitterTitle": "Merge a Black Hole Wiki - Codes, Upgrades & Leitfaden",
+      "twitterDescription": "Merge a Black Hole Wiki bietet Roblox-Codes, Upgrades, Merging-Strategien, Fortschritts-Tipps, Belohnungen und Anfänger-Guides."
+    }
+  },
   "nav": {
     "codes": "Codes",
-    "guide": "Guide",
-    "merging": "Merging",
-    "levels": "Levels",
-    "rewards": "Rewards",
-    "facts": "Facts",
+    "guide": "Leitfaden",
+    "merging": "Verschmelzen",
+    "levels": "Level",
+    "rewards": "Belohnungen",
+    "facts": "Fakten",
     "videos": "Videos"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Spiel auf Roblox",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Thema wechseln",
+    "lightMode": "Hellmodus",
+    "darkMode": "Dunkelmodus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel erscheinen bald"
+  },
+  "hero": {
+    "badge": "Roblox Black Hole Merge Simulator",
+    "title": "Merge a Black Hole Wiki",
+    "description": "Vollständiges Merge a Black Hole Wiki, das Codes, schwarze Loch-Upgrades, Merging-Mechaniken, Fortschritts-Strategien, Belohnungen und Anfänger-Guides für Roblox-Spieler abdeckt.",
+    "getFreeCodesCTA": "Gratis-Codes erhalten",
+    "playOnRobloxCTA": "Spiel auf Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Roblox",
+        "label": "Plattform"
+      },
+      "stat2": {
+        "value": "Verschmelzen",
+        "label": "Genre"
+      },
+      "stat3": {
+        "value": "Gratis",
+        "label": "Um zu spielen"
+      },
+      "stat4": {
+        "value": "8",
+        "label": "Wiki-Sektionen"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Merge a Black Hole Gameplay",
+    "description": "Wach einen mächtigen Schwarzen Loch durch Sammeln von Objekten, Freischalten von Upgrades und Erweitern deines Bereichs auf der Karte in diesem Roblox-Mergesimulator."
+  },
+  "tools": {
+    "title": "Merge a Black Hole",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Alles, was du brauchst, um Merge a Black Hole zu meistern — Codes, Upgrades, Wiedergeburt, Tipps und die neuesten Updates.",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Codes für Merge a Black Hole",
+        "description": "Aktive Gutscheincodes und freie Belohnungen"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Merge a Black Hole Anfängeranleitung",
+        "description": "Kernspielmechanik und schneller Start"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Upgrades für Merge a Black Hole",
+        "description": "Beste Upgrades, die priorisiert werden sollten"
+      },
+      {
+        "icon": "Package",
+        "title": "Merge a Black Hole Tiere & Artikel",
+        "description": "Booster, Tiere und Sammlerstücke"
+      },
+      {
+        "icon": "Star",
+        "title": "Merge a Black Hole Wiedergeburt",
+        "description": "Zurücksetzen für dauerhafte Boni"
+      },
+      {
+        "icon": "Settings",
+        "title": "Merge a Black Hole Tipps",
+        "description": "Fortgeschrittene Farming-Strategien"
+      },
+      {
+        "icon": "Clock",
+        "title": "Updates für Merge a Black Hole",
+        "description": "Neue Funktionen und Events"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Leaderboard von Merge a Black Hole",
+        "description": "Klettere die globalen Ranglisten hinauf"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Codes für Merge a Black Hole",
+      "intro": "Redeemiere Merge a Black Hole-Codes, um freie Münzen, Booster und zeitlich begrenzte Belohnungen zu erhalten. Neue Codes werden während der Updates und speziellen Veranstaltungen freigegeben, also schau regelmäßig vorbei, um jeden Bonus mitzunehmen.",
+      "codes": [
+        {
+          "code": "Noch keine aktiven Codes",
+          "reward": "Kostenlose Coins, Boosts und zeitlich begrenzte Belohnungen",
+          "status": "Mit Updates veröffentlicht"
+        }
+      ],
+      "howToRedeem": [
+        "Öffne Merge a Black Hole auf Roblox",
+        "Tippe auf das Codes-Symbol auf dem Hauptbildschirm",
+        "Klebe oder tippe deinen Code in das Eingabefeld ein",
+        "Drücke 'Redeem', um deine Belohnungen sofort zu erhalten"
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Merge a Black Hole Anfängerguide",
+      "intro": "Merge a Black Hole ist ein Roblox-Mergesimulator, bei dem du einen Schwarzen Loch durch Sammeln von Objekten und Erhöhung seiner Größe wachsend lässt. Neue Spieler können diese Schritte befolgen, um das Mergen, die Ressourcensammlung und den Fortschritt zu verstehen.",
+      "steps": [
+        {
+          "title": "Beginne mit dem Sammeln von Objekten",
+          "description": "Bewege deinen Schwarzen Loch auf der Karte und absorbiere verfügbare Objekte, um seine Größe zu erhöhen und Ressourcen zu verdienen."
+        },
+        {
+          "title": "Wachse deinen Schwarzen Loch",
+          "description": "Verwende gesammelte Ressourcen, um deinen Schwarzen Loch zu erweitern und die Fähigkeit zu aktivieren, größere Objekte zu absorbieren."
+        },
+        {
+          "title": "Beschleunige den Fortschritt",
+          "description": "Konzentriere dich auf Upgrades und effiziente Farming-Pfade, um deine allgemeine Wachstumsrate zu erhöhen."
+        },
+        {
+          "title": "Fortsätze das Erweitern",
+          "description": "Fahre mit dem Mergen und Sammeln von Ressourcen fort, um höhere Fortschrittsstufen und größere Ziele zu erreichen."
+        }
+      ],
+      "quickTips": [
+        "Bewege dich zu dichten Clustern von Objekten, um deinen Schwarzen Loch schneller zu füllen.",
+        "Verwende frühe Münzen auf Größe-Upgrades, bevor du etwas anderes tust.",
+        "Absorbiere größere Objekte, sobald dein Schwarzer Loch sie handhaben kann.",
+        "Pass auf Bonuszonen auf, die deine Ressourcengewinne vervielfachen."
+      ]
+    },
+    "upgradeGuide": {
+      "title": "Merge a Black Hole Upgrade Leitfaden",
+      "intro": "Upgrades sind der Hauptweg, um den Fortschritt in Merge a Black Hole zu verbessern. Dieses Guide organisiert die wichtigsten Upgrade-Bereiche und erläutert, wie jeder von ihnen dir hilft, Ressourcen zu sammeln und schneller zu wachsen.",
+      "cards": [
+        {
+          "title": "Schwarzer Loch Größe",
+          "description": "Erhöhe die Größe deines Schwarzen Lochs, um mehr Objekte zu absorbieren und größere Ziele auf der Karte zu entsperren."
+        },
+        {
+          "title": "Sammelgeschwindigkeit",
+          "description": "Verbessere die Sammeleffizienz und reduziere die Zeit, die für die Sammlung von Ressourcen aus jedem Objekt benötigt wird."
+        },
+        {
+          "title": "Ressourcenwert",
+          "description": "Erhöhe den Wert der gesammelten Objekte und verbessere deine allgemeine Fortschrittsrate."
+        },
+        {
+          "title": "Wachstumsfaktor",
+          "description": "Priorisiere Upgrades, die deinen Wachstumsfaktor vervielfachen und stärkere langfristige Möglichkeiten entsperren."
+        }
+      ],
+      "milestones": [
+        "Schwarzer Loch Größe erhöhen",
+        "Sammelgeschwindigkeit steigern",
+        "Ressourcenwert erhöhen",
+        "Wachstumsfaktoren entsperren"
+      ]
+    },
+    "petsAndItems": {
+      "title": "Merge a Black Hole Haustiere und Artikel Guide",
+      "intro": "Haustiere und Sammelobjekte bieten zusätzliche Vorteile während des Spiels in Merge a Black Hole. Dieser Abschnitt organisiert die verfügbaren Boost-Systeme und erläutert, wie sie dir helfen, schneller voranzukommen.",
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "Starke Fortschrittsbooster",
+          "description": "Die stärksten Booster, die die größte Verbesserung für die Ressourcensammlung und das Wachstum des Schwarzen Lochs bieten."
+        },
+        {
+          "tier": "A",
+          "name": "Nützliche Farming-Artikel",
+          "description": "Verlässliche Artikel, die den normalen Spielfortschritt verbessern und deinen Ressourcenfluss stabil halten."
+        },
+        {
+          "tier": "B",
+          "name": "Frühe Spiel-Booster",
+          "description": "Hilfreiche Optionen für neue Spieler, die ihren Fortschrittsweg in Merge a Black Hole beginnen."
+        }
+      ]
+    },
+    "rebirthGuide": {
+      "title": "Merge a Black Hole Wiedergeburtsguide",
+      "intro": "Die Wiedergeburt ist ein wichtiger Fortschrittssystem in Merge a Black Hole, das es dir ermöglicht, deinen aktuellen Wachstumszyklus neu zu starten, um dauerhafte Boni zu erhalten. Nutze die Wiedergeburt strategisch, um die zukünftige Farming-Geschwindigkeit zu erhöhen und schneller höhere Schwarze Loch-Stufen zu erreichen.",
+      "steps": [
+        {
+          "title": "Dein Schwarzes Loch wachsen lassen",
+          "description": "Vereinige Objekte, sammle Gegenstände und sammle genügend Ressourcen, um deine Schwarze Loch-Kraft zu erhöhen, bevor du eine Wiedergeburt versuchst."
+        },
+        {
+          "title": "Wiedergeburtsvoraussetzungen erreichen",
+          "description": "Erreiche die Fortschrittziele, die erforderlich sind, um die Wiedergeburtsoption zu aktivieren und deinen Neustart vorzubereiten."
+        },
+        {
+          "title": "Wiedergeburt aktivieren",
+          "description": "Setze deinen aktuellen Fortschritt zurück, um dauerhafte Boni zu erhalten, die deine zukünftige Wachstumsgeschwindigkeit verbessern."
+        },
+        {
+          "title": "Mit besserer Effizienz wiederholen",
+          "description": "Nutze deine Wiedergeburtboni, um Ressourcen schneller zu sammeln und höhere Fortschrittspunkte zu entsperren."
+        }
+      ]
+    },
+    "gameplayTips": {
+      "title": "Merge a Black Hole Spielstrategien",
+      "intro": "Diese Spielstrategien konzentrieren sich darauf, die Ressourcensammlung, die Upgradewahl und die allgemeine Fortschrittseffizienz in Merge a Black Hole zu verbessern. Nutze diese Strategien, um dein Schwarzes Loch schneller wachsen zu lassen und bessere Upgrades zu wählen.",
+      "tips": [
+        {
+          "title": "Wachstumsgeschwindigkeit priorisieren",
+          "description": "Konzentriere dich auf Upgrades und Aktionen, die die Geschwindigkeit erhöhen, mit der dein Schwarzes Loch Objekte verbraucht und Ressourcen generiert."
+        },
+        {
+          "title": "Effizient vereinen",
+          "description": "Vereinige verfügbare Objekte strategisch, um stärkere Ergebnisse zu erzielen und deine allgemeine Fortschrittsgeschwindigkeit zu verbessern."
+        },
+        {
+          "title": "Ressourcen weise verwenden",
+          "description": "Spende Währung für wertvolle Upgrades anstatt Ressourcen in geringfügige Verbesserungen zu stecken."
+        },
+        {
+          "title": "Farming-Pfade optimieren",
+          "description": "Wähle effiziente Bereiche und Objektgruppen, um die Menge der über die Zeit gewonnenen Ressourcen zu maximieren."
+        },
+        {
+          "title": "Wiedergeburtstermin planen",
+          "description": "Warte bis eine Wiedergeburt bedeutende Fortschrittsvorteile bietet, anstatt zu früh neu zu starten."
+        }
+      ]
+    },
+    "updates": {
+      "title": "Updates für Merge a Black Hole",
+      "intro": "Dieser Abschnitt verfolgt wichtige Änderungen in Merge a Black Hole, einschließlich neuer Inhalte, Spieländerungen und Eventinformationen. Überprüfe die neuesten Updates, um auf neue Mechaniken und Belohnungen auf dem Laufenden zu bleiben.",
+      "items": [
+        {
+          "title": "Neue Funktionen",
+          "description": "Neu hinzugefügte Spielmechaniken, Inhalte und Verbesserungen, die in den Updates von Merge a Black Hole eingeführt wurden."
+        },
+        {
+          "title": "Balancierungsänderungen",
+          "description": "Anpassungen, die Upgrades, Belohnungen, Fortschrittsgeschwindigkeit und die allgemeine Spielbalance beeinflussen."
+        },
+        {
+          "title": "Begrenzte Zeitereignisse",
+          "description": "Spezielle Ereignisse, temporäre Belohnungen und Aktivitäten, die für Merge a Black Hole-Spieler verfügbar sind."
+        },
+        {
+          "title": "Spielverbesserungen",
+          "description": "Änderungen, die die Benutzererfahrung, Leistung, Steuerung und die allgemeine Spielleistung verbessern."
+        }
+      ]
+    },
+    "leaderboardGuide": {
+      "title": "Merge a Black Hole Leaderboard Leitfaden",
+      "intro": "Der Erfolg im Leaderboard von Merge a Black Hole hängt von effizienter Ressourcenbeschaffung, klugen Upgrade-Entscheidungen und konstanter Fortschritt ab. Dieser Leitfaden erläutert die Hauptstrategien, die von Wettbewerbsspielern verwendet werden.",
+      "rows": [
+        {
+          "category": "Ressourcenanbau",
+          "strategy": "Sammle Ressourcen effizient und halte ein konstantes Wachstum während jeder Sitzung aufrecht.",
+          "importance": "Hoch"
+        },
+        {
+          "category": "Upgrade-Management",
+          "strategy": "Priorisiere Upgrades, die die stärksten Fortschrittverbesserungen bieten.",
+          "importance": "Hoch"
+        },
+        {
+          "category": "Wiedergeburtseffizienz",
+          "strategy": "Verwende Wiedergeburtssysteme zu optimalen Zeiten, um das langfristige Wachstum zu erhöhen.",
+          "importance": "Mittel"
+        },
+        {
+          "category": "Täglicher Fortschritt",
+          "strategy": "Konsistent spielen, um maximale Belohnungen und Rangveränderungen zu erzielen.",
+          "importance": "Mittel"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Merge a Black Hole wissen musst",
+    "questions": [
+      {
+        "question": "Was ist Merge a Black Hole?",
+        "answer": "Merge a Black Hole ist ein Roblox-Verschmelzsimulator, bei dem du einen Schwarzen Loch wachsend durch das Sammeln von Objekten, die Erhöhung seiner Größe und das Freischalten von Upgrades schneller vorankommst."
+      },
+      {
+        "question": "Wo kann ich Merge a Black Hole spielen?",
+        "answer": "Du kannst Merge a Black Hole kostenlos auf Roblox auf PC, mobil und Tablet spielen, alle mit demselben Konto."
+      },
+      {
+        "question": "Wie kann ich Codes in Merge a Black Hole einlösen?",
+        "answer": "Öffne das Spiel in Merge a Black Hole, tippe auf das Codes-Symbol, gib deinen Code in das Feld ein und drücke Einlösen, um kostenlose Coins und Boosts zu erhalten."
+      },
+      {
+        "question": "Was ist die Wiedergeburt in Merge a Black Hole?",
+        "answer": "Die Wiedergeburt in Merge a Black Hole setzt deinen aktuellen Fortschritt zurück und bietet dauerhafte Boni, die jeden zukünftigen Wachstumszyklus schneller machen."
+      },
+      {
+        "question": "Gibt es in Merge a Black Hole Tiere oder Gegenstände?",
+        "answer": "Ja. Merge a Black Hole beinhaltet sammelbare Tiere und Boost-Gegenstände, die den Ressourcenanbau und die Fortschrittsgeschwindigkeit verbessern."
+      },
+      {
+        "question": "Wie kann ich den Merge a Black Hole Leaderboard besteigen?",
+        "answer": "Um im Merge a Black Hole aufzusteigen, konzentriere dich auf effizienten Anbau, kluge Upgrade-Entscheidungen und gut geplante Wiedergeburten für langfristiges Wachstum."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Merge a Black Hole zu spielen?",
+    "description": "Springe in Merge a Black Hole auf Roblox ein — wachse deinen Schwarzen Loch, löse mächtige Upgrades ein, lösche kostenlose Codes und besteige das Leaderboard!",
+    "joinCommunity": "Spielvortrag ansehen",
+    "joinGame": "Auf Roblox spielen"
+  },
+  "footer": {
+    "title": "Merge a Black Hole Wiki",
+    "description": "Ihr vollständiger Ressourcenhub für Merge a Black Hole Codes, Upgrades, Merge-Mechaniken, Fortschritt, Belohnungen und Anfängeranleitungen.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Spiel auf Roblox",
+    "twitter": "Spielverlauf ansehen",
+    "steamCommunity": "Roblox suchen",
+    "steamStore": "Roblox-Startseite",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Urheberrecht",
+    "copyright": "© 2026 Merge a Black Hole Wiki. Keine Verbindung zu den Entwicklern von Merge a Black Hole.",
+    "disclaimer": "Unoffizielle Fan-ressourcenwebsite."
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes für Merge a Black Hole",
+      "description": "Aktive Merge a Black Hole Codes für kostenlose Edelsteine, Münzen und Upgrade-Booster. Löse funktionierende Codes ein, um deinen Schwarzen Loch schneller wachsen zu lassen.",
+      "metaTitle": "Merge a Black Hole Codes - Kostenlose Edelsteine & Booster",
+      "metaDescription": "Löse die neuesten funktionierenden Merge a Black Hole Codes für kostenlose Edelsteine, Münzen und Upgrade-Booster ein. Aktuelle Liste der aktiven Codes, um das Wachstum deines Schwarzen Lochs zu beschleunigen.",
+      "categoryLabel": "CODES EINLÖSEN",
+      "whatIs": "Was sind Codes?",
+      "whatIsDescription": "Merge a Black Hole Codes sind kostenlose Einlösestrings, die von den Entwicklern veröffentlicht werden und Bonus-Edelsteine, Münzen und Upgrade-Booster gewähren. Geben Sie sie im Spiel ein, um sofortige Belohnungen einzufordern, die das Wachstum Ihres Schwarzen Lochs beschleunigen.",
+      "why": "Warum Codes einlösen?",
+      "whySteps": {
+        "step1Title": "Kostenlose Ressourcen",
+        "step1Description": "Erhalten Sie sofort kostenlose Edelsteine und Münzen ohne zu farmen",
+        "step2Title": "Schnelleres Wachstum",
+        "step2Description": "Booster beschleunigen das Merging und das Leveln Ihres Schwarzen Lochs",
+        "step3Title": "Auf dem Laufenden bleiben",
+        "step3Description": "Neue Codes werden mit Spielaktualisierungen und Meilensteinen veröffentlicht"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Codes"
+    },
+    "guide": {
+      "title": "Merge a Black Hole Leitfaden",
+      "description": "Komplette Merge a Black Hole Anleitungen von Anfängergrundlagen bis zu fortgeschrittenem Fortschritt, Merging-Strategien und Tipps für das Meistern des Roblox-Simulators.",
+      "metaTitle": "Merge a Black Hole Guide - Von Anfänger bis zum Fortgeschrittenen Strategien",
+      "metaDescription": "Komplette Merge a Black Hole Anleitungen, die Anfängertipps, Spielweise, Fortschrittstrategien und Experten-Taktiken für das Meistern des Roblox-Merging-Simulators abdecken.",
+      "categoryLabel": "SPIELANLEITUNGEN",
+      "whatIs": "Was sind Anleitungen?",
+      "whatIsDescription": "Umfassende Anleitungen, die die Gameplay-Mechaniken, Steuerung, Ziele und Fortschrittspfade von Merge a Black Hole abdecken. Lerne alles vom ersten Merge bis zu fortgeschrittenen Farming-Techniken.",
+      "why": "Warum Anleitungen lesen?",
+      "whySteps": {
+        "step1Title": "Kernelemente lernen",
+        "step1Description": "Verstehe das Merging-System und vermeide häufige Anfängerfehler",
+        "step2Title": "Schneller Fortschritt",
+        "step2Description": "Folge bewährten Pfaden, um den Schwarzen Loch schnell zu wachsen",
+        "step3Title": "Strategien meistern",
+        "step3Description": "Entwickle fortgeschrittene Taktiken für effizientes Farming und Leveln"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Anleitungen"
+    },
+    "merging": {
+      "title": "Merge a Black Hole Verschmelzen",
+      "description": "Meistere das Merge a Black Hole Merging-System mit Objekt-Kombinationen, Schwarzes Loch Stufenpfaden und effizienten Merging-Strategien.",
+      "metaTitle": "Merge a Black Hole Merging - Merging-System & Schwarzes Loch Stufen",
+      "metaDescription": "Meistere das Merge a Black Hole Merging-System. Lerne Objekt-Kombinationen, Schwarzes Loch Stufen-Fortschritt und Strategien für den Aufbau eines mächtigen Schwarzen Lochs.",
+      "categoryLabel": "MERGING-SYSTEM",
+      "whatIs": "Was ist Merging?",
+      "whatIsDescription": "Merging ist das Kernelement von Merge a Black Hole, wo du Objekte sammelst und kombiniert, um deinen Schwarzen Loch durch steigende Stufen zu wachsen und stärkere Upgrades freizuschalten.",
+      "why": "Warum Merging meistern?",
+      "whySteps": {
+        "step1Title": "Schneller wachsen",
+        "step1Description": "Kombiniere Objekte effizient, um das Wachstum des Schwarzen Lochs zu beschleunigen",
+        "step2Title": "Upgrades freischalten",
+        "step2Description": "Verwende kombinierte Ressourcen, um mächtige Fortschritt-Upgrades freizuschalten",
+        "step3Title": "Ressourcen optimieren",
+        "step3Description": "Maximiere den Output, indem du die richtigen Objekte zum Merging wählst"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Merging-Anleitungen"
+    },
+    "levels": {
+      "title": "Merge a Black Hole Ebenen & Aufwertungen",
+      "description": "Meistere Merge a Black Hole Ebenen, Aufwertungen und Wiedergeburtssysteme mit detaillierten Fortschrittspfaden und besten Aufwertungs prioritäten.",
+      "metaTitle": "Merge a Black Hole Ebenen & Aufwertungen - Fortschritt & Wiedergeburt",
+      "metaDescription": "Meistere Merge a Black Hole Ebenen und Aufwertungen mit Fortschrittspfaden, besten Aufwertungs prioritäten und Wiedergeburtstrategien für kontinuierliches Wachstum.",
+      "categoryLabel": "EBENEN & AUFWERTUNGEN",
+      "whatIs": "Was sind Ebenen & Aufwertungen?",
+      "whatIsDescription": "Ebenen und Aufwertungen treiben dein langfristiges Wachstum in Merge a Black Hole voran, einschließlich der Stufen der Schwarzen Löcher, Aufwertungs prioritäten und des Wiedergeburtssystems, das den Fortschritt für dauerhafte Boni zurücksetzt.",
+      "why": "Warum Aufwertungen planen?",
+      "whySteps": {
+        "step1Title": "Aufwertungen priorisieren",
+        "step1Description": "Konzentriere Ressourcen auf die Aufwertungen mit dem größten Einfluss",
+        "step2Title": "Wiedergeburt planen",
+        "step2Description": "Zeite deine Wiedergeburten für maximale dauerhafte Boni",
+        "step3Title": "Meilensteine verfolgen",
+        "step3Description": "Setze Wachstumziele für jeden Fortschrittzyklus"
+      },
+      "featured": "Vorgestellt & Wichtig",
+      "all": "Alle Aufwertungsleitfäden"
+    },
+    "rewards": {
+      "title": "Merge a Black Hole Belohnungen",
+      "description": "Kompletter Leitfaden zu Merge a Black Hole Belohnungen einschließlich täglicher Anmeldeboni, freier Belohnungen, Questen und Rückerstattungsbelohnungen.",
+      "metaTitle": "Merge a Black Hole Belohnungen - Täglich & Freie Belohnungen Leitfaden",
+      "metaDescription": "Entdecke alle Merge a Black Hole Belohnungen einschließlich täglicher Anmeldeboni, freier Belohnungen, Questen und Rückerstattungstipps, um dein Einkommen an Ressourcen zu maximieren.",
+      "categoryLabel": "BELÖNHUNGEN",
+      "whatIs": "Was sind Belohnungen?",
+      "whatIsDescription": "Belohnungen in Merge a Black Hole decken jeden freien Ressourcenquellen ab: tägliche Anmeldeboni, Questbelohnungen, Eventpreise und Rückerstattungsbelohnungen, die dein Wachstum der Schwarzen Löcher verbessern.",
+      "why": "Warum Belohnungen einfordern?",
+      "whySteps": {
+        "step1Title": "Tägliche Anmeldeboni",
+        "step1Description": "Erhalte tägliche Ressourcen einfach durch das Anmelden",
+        "step2Title": "Questen abschließen",
+        "step2Description": "Erhalte zusätzliche Edelsteine und Münzen aus täglichen und Eventquesten",
+        "step3Title": "Einkommen maximieren",
+        "step3Description": "Belohnungsquellen stapeln, um den Fortschritt zu beschleunigen"
+      },
+      "featured": "Vorgestellt & Wichtig",
+      "all": "Alle Belohnungsleitfäden"
+    },
+    "facts": {
+      "title": "Merge a Black Hole Fakten",
+      "description": "Entdecke die wahre Wissenschaft hinter Merge a Black Hole - Gravitationswellen, LIGO-Erkennungen, NASA-Forschung, Energieabgabe und Masse nach dem Zusammenbruch.",
+      "metaTitle": "Merge a Black Hole Fakten - Schwarze Loch Wissenschaft & Physik",
+      "metaDescription": "Entdecke die wahre Wissenschaft hinter Merge a Black Hole, einschließlich Gravitationswellen, LIGO, NASA-Forschung, Energieabgabe und was passiert, wenn Schwarze Löcher zusammenbrechen.",
+      "categoryLabel": "SCHWARZES LOCH FAKTEN",
+      "whatIs": "Was sind Schwarze Loch Fakten?",
+      "whatIsDescription": "Schwarze Loch Fakten erforschen die wahre Astrophysik hinter Merge a Black Hole, von den Gravitationswellen, die von LIGO erkannt wurden, bis zur NASA-Forschung über die Energie und Masse, die bei dem Zusammenbruch von Schwarzen Löchern freigesetzt werden.",
+      "why": "Warum die Fakten lernen?",
+      "whySteps": {
+        "step1Title": "Wahre Wissenschaft",
+        "step1Description": "Verstehe die tatsächliche Physik des Zusammenbruchs von Schwarzen Löchern",
+        "step2Title": "Gravitationswellen",
+        "step2Description": "Lerne, wie LIGO Wellen im Raum-Zeit-Gefüge von Zusammenbrüchen erkennt",
+        "step3Title": "Kosmische Skala",
+        "step3Description": "Verstehe die Energie und Masse, die in echten Schwarzen Loch Zusammenbrüchen beteiligt sind"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Fakten"
+    },
+    "videos": {
+      "title": "Videos für Merge a Black Hole",
+      "description": "Sehe Merge a Black Hole Gameplay, Trailer, Tutorials und Animationen, um Strategien in Aktion zu sehen und auf neue Inhalte auf dem Laufenden zu bleiben.",
+      "metaTitle": "Merge a Black Hole Videos - Gameplay, Trailer & Tutorials",
+      "metaDescription": "Sehe Merge a Black Hole Gameplay Videos, Trailer, Tutorials und Animationen. Sehe Top-Strategien in Aktion und erhalte die neuesten Updates zum Spiel.",
+      "categoryLabel": "VIDEOS",
+      "whatIs": "Was sind Videos?",
+      "whatIsDescription": "Videos präsentieren Merge a Black Hole in Bewegung, einschließlich Gameplay-Aufnahmen, offiziellen Trailern, vollständigen Tutorials und Animationen, die Strategien und neue Inhalte demonstrieren.",
+      "why": "Warum Videos schauen?",
+      "whySteps": {
+        "step1Title": "Strategien sehen",
+        "step1Description": "Sehe Top-Spieler, die erfolgreiche Zusammenbruchstrategien ausführen",
+        "step2Title": "Auf dem Laufenden bleiben",
+        "step2Description": "Erhalte Trailer und Ankündigungen für neue Inhalte",
+        "step3Title": "Visuell lernen",
+        "step3Description": "Folge Tutorials, um schwierige Abschnitte zu meistern"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Videos"
+    }
   }
 }

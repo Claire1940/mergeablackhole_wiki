@@ -1,11 +1,501 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki do Merge a Black Hole - Codes, Upgrades & Guia",
+      "description": "O Wiki do Merge a Black Hole oferece códigos Roblox, atualizações de buraco negro, estratégias de fusão, dicas de progressão, recompensas e guias para iniciantes para ajudar os jogadores a crescerem mais rápido.",
+      "keywords": "Wiki do Merge a Black Hole, Roblox, códigos, upgrades, simulador, guia, wiki",
+      "ogTitle": "Wiki do Merge a Black Hole - Codes, Upgrades & Guia",
+      "ogDescription": "O Wiki do Merge a Black Hole oferece códigos Roblox, atualizações de buraco negro, estratégias de fusão, dicas de progressão, recompensas e guias para iniciantes para ajudar os jogadores a crescerem mais rápido.",
+      "twitterTitle": "Wiki do Merge a Black Hole - Codes, Upgrades & Guia",
+      "twitterDescription": "O Wiki do Merge a Black Hole oferece códigos Roblox, upgrades, estratégias de fusão, dicas de progressão, recompensas e guias para iniciantes."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "merging": "Merging",
-    "levels": "Levels",
-    "rewards": "Rewards",
-    "facts": "Facts",
-    "videos": "Videos"
+    "codes": "Códigos",
+    "guide": "Guia",
+    "merging": "Fusão",
+    "levels": "Níveis",
+    "rewards": "Recompensas",
+    "facts": "Fatos",
+    "videos": "Vídeos"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Mais",
+    "playNow": "Jogue no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para Home",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em Breve"
+  },
+  "hero": {
+    "badge": "Simulador de Fusão de Buraco Negro Roblox",
+    "title": "Wiki do Merge a Black Hole",
+    "description": "Wiki completo do Merge a Black Hole cobrindo códigos, atualizações de buraco negro, mecânica de fusão, estratégias de progressão, recompensas e guias para iniciantes para jogadores Roblox.",
+    "getFreeCodesCTA": "Obtenha Códigos Grátis",
+    "playOnRobloxCTA": "Jogue no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Roblox",
+        "label": "Plataforma"
+      },
+      "stat2": {
+        "value": "Fusão",
+        "label": "Gênero"
+      },
+      "stat3": {
+        "value": "Grátis",
+        "label": "Para Jogar"
+      },
+      "stat4": {
+        "value": "8",
+        "label": "Seções do Wiki"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Merge a Black Hole Gameplay",
+    "description": "Cresça um buraco negro poderoso coletando objetos, desbloqueando atualizações e expandindo seu alcance no mapa neste simulador de merge do Roblox."
+  },
+  "tools": {
+    "title": "Merge a Black Hole",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar Merge a Black Hole — códigos, atualizações, renascimento, dicas e as últimas atualizações.",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Códigos do Merge a Black Hole",
+        "description": "Códigos ativos de resgate e recompensas gratuitas"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia Inicial do Merge a Black Hole",
+        "description": "Loop de jogo básico e início rápido"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Atualizações do Merge a Black Hole",
+        "description": "Melhores atualizações a priorizar"
+      },
+      {
+        "icon": "Package",
+        "title": "Pets & Itens do Merge a Black Hole",
+        "description": "Aumento, pets e itens colecionáveis"
+      },
+      {
+        "icon": "Star",
+        "title": "Renascimento do Merge a Black Hole",
+        "description": "Redefina para benefícios permanentes"
+      },
+      {
+        "icon": "Settings",
+        "title": "Dicas do Merge a Black Hole",
+        "description": "Estratégias avançadas de agricultura"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações do Merge a Black Hole",
+        "description": "Novas funcionalidades e eventos"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Classificação do Merge a Black Hole",
+        "description": "Ascenda nas classificações globais"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos do Merge a Black Hole",
+      "intro": "Resgate códigos do Merge a Black Hole para reclamar moedas gratuitas, aumentos e recompensas de tempo limitado. Novos códigos são liberados durante atualizações do jogo e eventos especiais, então verifique regularmente para pegar todos os bônus.",
+      "codes": [
+        {
+          "code": "Ainda não há códigos ativos",
+          "reward": "Moedas gratuitas, aumentos e recompensas de tempo limitado",
+          "status": "Liberado com atualizações"
+        }
+      ],
+      "howToRedeem": [
+        "Abra Merge a Black Hole no Roblox",
+        "Toque no ícone de Códigos na tela principal",
+        "Cole ou digite seu código na caixa de entrada",
+        "Pressione Resgatar para reclamar suas recompensas instantaneamente"
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guia Inicial do Merge a Black Hole",
+      "intro": "Merge a Black Hole é um simulador de merge no Roblox onde você cresce um buraco negro coletando objetos e aumentando seu tamanho. Novos jogadores podem seguir esses passos para entender o merge, coleta de recursos e progressão.",
+      "steps": [
+        {
+          "title": "Comece a Coletar Objetos",
+          "description": "Mova seu buraco negro pelo mapa e absorva os objetos disponíveis para aumentar seu tamanho e ganhar recursos."
+        },
+        {
+          "title": "Cresça Seu Buraco Negro",
+          "description": "Use os recursos coletados para expandir seu buraco negro e desbloquear a capacidade de absorver objetos maiores."
+        },
+        {
+          "title": "Melhore a Velocidade de Progressão",
+          "description": "Foco em atualizações e rotas de agricultura eficientes para aumentar sua velocidade geral de crescimento."
+        },
+        {
+          "title": "Continue Expandindo",
+          "description": "Continue mergendo e coletando recursos para alcançar níveis de progressão mais altos e alvos maiores."
+        }
+      ],
+      "quickTips": [
+        "Mova-se em direção a agrupamentos densos de objetos para encher seu buraco negro mais rapidamente.",
+        "Gaste moedas cedo em atualizações de tamanho antes de qualquer outra coisa.",
+        "Absorva objetos maiores assim que seu buraco negro puder lidar com eles.",
+        "Fique atento às áreas de bônus que multiplicam suas gananças de recursos."
+      ]
+    },
+    "upgradeGuide": {
+      "title": "Guia de Atualizações do Merge a Black Hole",
+      "intro": "As atualizações são a principal maneira de melhorar o progresso no Merge a Black Hole. Este guia organiza as áreas de atualização mais importantes e explica como cada uma ajuda você a coletar recursos e expandir mais rapidamente.",
+      "cards": [
+        {
+          "title": "Tamanho do Buraco Negro",
+          "description": "Aumente o tamanho do seu buraco negro para absorver mais objetos e desbloquear alvos maiores ao longo do mapa."
+        },
+        {
+          "title": "Velocidade de Coleta",
+          "description": "Melhore a eficiência da coleta e reduza o tempo necessário para reunir recursos de cada objeto."
+        },
+        {
+          "title": "Valor do Recurso",
+          "description": "Aumente o valor ganho dos objetos coletados e melhore sua taxa geral de progressão."
+        },
+        {
+          "title": "Multiplicador de Crescimento",
+          "description": "Priorize atualizações que multiplicam sua taxa de crescimento e desbloqueiem oportunidades a longo prazo mais fortes."
+        }
+      ],
+      "milestones": [
+        "Cresça o tamanho do buraco negro",
+        "Aumente a velocidade de coleta",
+        "Aumente o valor do recurso",
+        "Desbloqueie multiplicadores de crescimento"
+      ]
+    },
+    "petsAndItems": {
+      "title": "Guia de Pets e Itens do Merge a Black Hole",
+      "intro": "Os pets e itens colecionáveis fornecem vantagens extras durante o jogo no Merge a Black Hole. Esta seção organiza os sistemas de impulso disponíveis e explica como eles ajudam você a progredir mais rapidamente.",
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "Impulso de Progressão Alta",
+          "description": "Os impulso mais fortes que oferecem a maior melhoria para a agricultura de recursos e o crescimento do buraco negro."
+        },
+        {
+          "tier": "A",
+          "name": "Itens de Agricultura Úteis",
+          "description": "Itens confiáveis que melhoram a progressão normal do jogo e mantêm o fluxo de recursos estável."
+        },
+        {
+          "tier": "B",
+          "name": "Impulso de Jogo Inicial",
+          "description": "Opções úteis para novos jogadores começando sua jornada de progressão no Merge a Black Hole."
+        }
+      ]
+    },
+    "rebirthGuide": {
+      "title": "Guia de Rebirth de Merge a Black Hole",
+      "intro": "Rebirth é um sistema de progressão principal em Merge a Black Hole que permite reiniciar seu ciclo de crescimento atual em troca de bônus permanentes. Use rebirth estratégicamente para aumentar a velocidade de coleta futura e alcançar níveis de buraco negro mais rapidamente.",
+      "steps": [
+        {
+          "title": "Cresça Seu Buraco Negro",
+          "description": "Combine objetos, colete itens e reúna recursos suficientes para aumentar a potência do seu buraco negro antes de tentar um rebirth."
+        },
+        {
+          "title": "Alcançar Requisitos de Rebirth",
+          "description": "Complete os objetivos de progressão necessários para desbloquear a opção de rebirth e preparar seu reset."
+        },
+        {
+          "title": "Ativar Rebirth",
+          "description": "Resetar seu progresso atual para receber bônus permanentes que melhoram sua velocidade de crescimento futura."
+        },
+        {
+          "title": "Repetir com Maior Eficiência",
+          "description": "Use seus bônus de rebirth para coletar recursos mais rapidamente e desbloquear marcos de progressão mais altos."
+        }
+      ]
+    },
+    "gameplayTips": {
+      "title": "Dicas de Gameplay de Merge a Black Hole",
+      "intro": "Essas dicas de gameplay focam em melhorar a coleta de recursos, decisões de upgrade e eficiência geral do progresso em Merge a Black Hole. Use essas estratégias para crescer seu buraco negro mais rapidamente e fazer melhores escolhas de upgrade.",
+      "tips": [
+        {
+          "title": "Priorize Velocidade de Crescimento",
+          "description": "Foco em upgrades e ações que aumentam a rapidez com que seu buraco negro pode consumir objetos e gerar recursos."
+        },
+        {
+          "title": "Combine Eficientemente",
+          "description": "Combine objetos disponíveis estratégicamente para desbloquear resultados mais fortes e melhorar sua taxa geral de progresso."
+        },
+        {
+          "title": "Use Recursos de Maneira Sábia",
+          "description": "Salve moeda para upgrades valiosos em vez de gastar recursos em melhorias de baixo impacto."
+        },
+        {
+          "title": "Otimizar Rotas de Agricultura",
+          "description": "Escolha áreas e agrupamentos de objetos eficientes para maximizar a quantidade de recursos ganhos ao longo do tempo."
+        },
+        {
+          "title": "Planejar o Tempo de Rebirth",
+          "description": "Aguardar até que um rebirth forneça benefícios de progressão significativos em vez de resetar muito cedo."
+        }
+      ]
+    },
+    "updates": {
+      "title": "Atualizações de Merge a Black Hole",
+      "intro": "A seção de atualizações rastreia mudanças importantes em Merge a Black Hole, incluindo lançamentos de novos conteúdos, ajustes de gameplay e informações sobre eventos. Verifique as atualizações recentes para manter-se a par das novas mecânicas e recompensas.",
+      "items": [
+        {
+          "title": "Novos Recursos",
+          "description": "Sistemas de gameplay, conteúdo e melhorias adicionados nos updates do jogo Merge a Black Hole."
+        },
+        {
+          "title": "Mudanças de Balanço",
+          "description": "Ajustes que afetam upgrades, recompensas, velocidade de progressão e equilíbrio geral do gameplay."
+        },
+        {
+          "title": "Eventos de Temporada",
+          "description": "Eventos especiais, recompensas temporárias e atividades disponíveis para jogadores de Merge a Black Hole."
+        },
+        {
+          "title": "Melhorias de Gameplay",
+          "description": "Mudanças que melhoram a experiência do usuário, desempenho, controles e qualidade geral do jogo."
+        }
+      ]
+    },
+    "leaderboardGuide": {
+      "title": "Guia de Leaderboard do Merge a Black Hole",
+      "intro": "O sucesso no leaderboard do Merge a Black Hole depende de coleta eficiente de recursos, escolhas inteligentes de atualizações e progresso consistente. Este guia explica as principais estratégias usadas pelos jogadores competitivos.",
+      "rows": [
+        {
+          "category": "Fazenda de Recursos",
+          "strategy": "Colete recursos de forma eficiente e mantenha um crescimento consistente ao longo de cada sessão.",
+          "importance": "Alta"
+        },
+        {
+          "category": "Gestão de Atualizações",
+          "strategy": "Priorize atualizações que proporcionem as melhores melhorias de progresso.",
+          "importance": "Alta"
+        },
+        {
+          "category": "Eficiência de Reencarnação",
+          "strategy": "Use sistemas de reencarnação em momentos ótimos para aumentar o crescimento a longo prazo.",
+          "importance": "Média"
+        },
+        {
+          "category": "Progresso Diário",
+          "strategy": "Jogue consistentemente para maximizar recompensas acumuladas e ganhos de ranking.",
+          "importance": "Média"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Questões",
+    "subtitle": "Tudo que você precisa saber sobre Merge a Black Hole",
+    "questions": [
+      {
+        "question": "O que é Merge a Black Hole?",
+        "answer": "Merge a Black Hole é um simulador de merge no Roblox onde você cultiva um buraco negro coletando objetos, aumentando seu tamanho e desbloqueando atualizações para progredir mais rapidamente."
+      },
+      {
+        "question": "Onde posso jogar Merge a Black Hole?",
+        "answer": "Você pode jogar Merge a Black Hole gratuitamente no Roblox em PC, móvel e tablet, todos usando a mesma conta."
+      },
+      {
+        "question": "Como eu posso resgatar códigos no Merge a Black Hole?",
+        "answer": "No Merge a Black Hole, abra o jogo, toque no ícone de Códigos, insira seu código na caixa e pressione Resgatar para reclamar moedas gratuitas e boosts."
+      },
+      {
+        "question": "O que é reencarnação no Merge a Black Hole?",
+        "answer": "A reencarnação no Merge a Black Hole reseta seu progresso atual em troca de bônus permanentes que tornam cada ciclo de crescimento futuro mais rápido."
+      },
+      {
+        "question": "Há pets ou itens no Merge a Black Hole?",
+        "answer": "Sim. O Merge a Black Hole inclui pets colecionáveis e itens de boost que melhoram a coleta de recursos e a velocidade de progresso."
+      },
+      {
+        "question": "Como subir no leaderboard do Merge a Black Hole?",
+        "answer": "Para subir no leaderboard do Merge a Black Hole, foque em uma agricultura eficiente, escolhas inteligentes de atualizações e reencarnações bem programadas para um crescimento a longo prazo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Jogar Merge a Black Hole?",
+    "description": "Entre no Merge a Black Hole no Roblox — cultive seu buraco negro, desbloqueie atualizações poderosas, resgate códigos gratuitos e suba no leaderboard!",
+    "joinCommunity": "Assista ao Gameplay",
+    "joinGame": "Jogue no Roblox"
+  },
+  "footer": {
+    "title": "Merge a Black Hole Wiki",
+    "description": "Seu hub completo de recursos para códigos, atualizações, mecanismos de fusão, progressão, recompensas e guias para iniciantes do Merge a Black Hole.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Jogue no Roblox",
+    "twitter": "Veja o Gameplay",
+    "steamCommunity": "Procure no Roblox",
+    "steamStore": "Página Inicial do Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Merge a Black Hole Wiki. Não está associado aos desenvolvedores do Merge a Black Hole.",
+    "disclaimer": "Website de recursos fan-made não oficial."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos do Merge a Black Hole",
+      "description": "Códigos ativos do Merge a Black Hole para gemas gratuitas, moedas e boosts de atualização. Troque códigos funcionais para fazer seu buraco negro crescer mais rápido.",
+      "metaTitle": "Códigos do Merge a Black Hole - Gemas Gratuitas & Boosts",
+      "metaDescription": "Troque os últimos códigos funcionais do Merge a Black Hole para gemas gratuitas, moedas e boosts de atualização. Lista atualizada de códigos ativos para acelerar o crescimento do seu buraco negro.",
+      "categoryLabel": "TROQUE CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Os códigos do Merge a Black Hole são strings de recompensa gratuitas liberadas pelos desenvolvedores que concedem gemas bônus, moedas e boosts de atualização. Insira-os no jogo para reclamar recompensas instantâneas que aceleram o crescimento do seu buraco negro.",
+      "why": "Por que trocar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos Grátis",
+        "step1Description": "Reclame instantaneamente gemas e moedas sem esforço",
+        "step2Title": "Crescimento mais Rápido",
+        "step2Description": "Boosts aceleram a fusão e o nível do seu buraco negro",
+        "step3Title": "Fique Atualizado",
+        "step3Description": "Novos códigos são liberados com atualizações do jogo e marcos"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de Merge a Black Hole",
+      "description": "Guias completos do Merge a Black Hole desde os fundamentos básicos até o avanço avançado, estratégias de fusão e dicas para dominar o simulador Roblox.",
+      "metaTitle": "Guia de Merge a Black Hole - Estratégias de Iniciante a Avançado",
+      "metaDescription": "Guias completos do Merge a Black Hole cobrindo dicas de iniciante, como jogar, estratégias de progressão e táticas de especialista para dominar o simulador de fusão Roblox.",
+      "categoryLabel": "GUIAS DE JOGOS",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias completos cobrindo os mecanismos de jogo do Merge a Black Hole, controles, objetivos e caminhos de progressão. Aprenda tudo desde sua primeira fusão até técnicas avançadas de cultivo.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda os Mecanismos Básicos",
+        "step1Description": "Entenda o sistema de fusão e evite erros comuns de iniciante",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos comprovados para crescer seu buraco negro rapidamente",
+        "step3Title": "Dominar Estratégias",
+        "step3Description": "Desenvolva táticas avançadas para cultivo eficiente e nivelamento"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias"
+    },
+    "merging": {
+      "title": "Fusão do Merge a Black Hole",
+      "description": "Domine o sistema de fusão do Merge a Black Hole com combinações de objetos, caminhos de níveis de buraco negro e estratégias de fusão eficientes.",
+      "metaTitle": "Fusão do Merge a Black Hole - Sistema de Fusão & Níveis de Buraco Negro",
+      "metaDescription": "Domine o sistema de fusão do Merge a Black Hole. Aprenda combinações de objetos, progressão de níveis de buraco negro e estratégias para construir um buraco negro poderoso.",
+      "categoryLabel": "SISTEMA DE FUSÃO",
+      "whatIs": "O que é Fusão?",
+      "whatIsDescription": "A fusão é o mecanismo central do Merge a Black Hole, onde você coleta e combina objetos para crescer seu buraco negro por meio de níveis escalonados e desbloquear upgrades mais fortes.",
+      "why": "Por que dominar a fusão?",
+      "whySteps": {
+        "step1Title": "Crescer mais Rápido",
+        "step1Description": "Combine objetos de maneira eficiente para acelerar o crescimento do buraco negro",
+        "step2Title": "Desbloquear Upgrades",
+        "step2Description": "Use recursos fusionados para desbloquear upgrades de progressão poderosos",
+        "step3Title": "Otimizar Recursos",
+        "step3Description": "Maximize a saída escolhendo os objetos certos para fusão"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias de Fusão"
+    },
+    "levels": {
+      "title": "Níveis e Melhorias do Merge a Black Hole",
+      "description": "Domine os níveis, melhorias e sistemas de renascimento do Merge a Black Hole com caminhos de progressão detalhados e prioridades de melhorias mais eficazes.",
+      "metaTitle": "Níveis e Melhorias do Merge a Black Hole - Progressão & Renascimento",
+      "metaDescription": "Domine os níveis e melhorias do Merge a Black Hole com caminhos de progressão, prioridades de melhorias mais eficazes e estratégias de renascimento para crescimento sustentado.",
+      "categoryLabel": "NÍVEIS & MELHORIAS",
+      "whatIs": "O que são Níveis & Melhorias?",
+      "whatIsDescription": "Os níveis e melhorias impulsionam seu crescimento a longo prazo no Merge a Black Hole, cobrindo níveis de buraco negro, prioridades de melhorias e o sistema de renascimento que redefine o progresso para bônus permanentes.",
+      "why": "Por que planejar melhorias?",
+      "whySteps": {
+        "step1Title": "Priorizar Melhorias",
+        "step1Description": "Concentre recursos nas melhorias com o maior impacto",
+        "step2Title": "Planejar Renascimentos",
+        "step2Description": "Agende seus renascimentos para maximizar bônus permanentes",
+        "step3Title": "Monitorar Marcos",
+        "step3Description": "Defina metas de crescimento em cada ciclo de progressão"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias de Melhorias"
+    },
+    "rewards": {
+      "title": "Recompensas do Merge a Black Hole",
+      "description": "Guia completo das recompensas do Merge a Black Hole, incluindo bônus diários de login, recompensas gratuitas, missões e recompensas de resgate.",
+      "metaTitle": "Recompensas do Merge a Black Hole - Guia de Bônus Diários & Gratuitos",
+      "metaDescription": "Descubra todas as recompensas do Merge a Black Hole, incluindo bônus diários de login, recompensas gratuitas, missões e dicas de resgate para maximizar sua renda de recursos.",
+      "categoryLabel": "RECOMPENSAS",
+      "whatIs": "O que são Recompensas?",
+      "whatIsDescription": "As recompensas no Merge a Black Hole cobrem todas as fontes de recursos gratuitos: bônus diários de login, recompensas de missões, prêmios de eventos e recompensas de resgate que impulsionam o crescimento do seu buraco negro.",
+      "why": "Por que reclamar de recompensas?",
+      "whySteps": {
+        "step1Title": "Bônus Diários de Login",
+        "step1Description": "Reclame de recursos gratuitos todos os dias apenas por fazer login",
+        "step2Title": "Concluir Missões",
+        "step2Description": "Ganhe gemas e moedas extra de missões diárias e de eventos",
+        "step3Title": "Maximizar Renda",
+        "step3Description": "Apoie fontes de recompensa para acelerar a progressão"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias de Recompensas"
+    },
+    "facts": {
+      "title": "Fatos sobre Merge a Black Hole",
+      "description": "Explore a ciência real por trás de Merge a Black Hole - ondas gravitacionais, deteções do LIGO, pesquisa da NASA, liberação de energia e massa após a fusão.",
+      "metaTitle": "Fatos sobre Merge a Black Hole - Ciência do Buraco Negro & Física",
+      "metaDescription": "Descubra a ciência real por trás de Merge a Black Hole, incluindo ondas gravitacionais, LIGO, pesquisa da NASA, liberação de energia e o que acontece quando buracos negros se fundem.",
+      "categoryLabel": "FATOS SOBRE BURACO NEGRO",
+      "whatIs": "O que são Fatos sobre Buraco Negro?",
+      "whatIsDescription": "Os fatos sobre buracos negros exploram a verdadeira astrofísica por trás de Merge a Black Hole, desde as ondas gravitacionais detectadas pelo LIGO até a pesquisa da NASA sobre a energia e a massa liberadas quando buracos negros se fundem.",
+      "why": "Por que aprender os fatos?",
+      "whySteps": {
+        "step1Title": "Ciência Real",
+        "step1Description": "Entenda a física real da fusão de buracos negros",
+        "step2Title": "Ondas Gravitacionais",
+        "step2Description": "Aprenda como o LIGO detecta ondas no espaço-tempo de fusões",
+        "step3Title": "Escala Cósmica",
+        "step3Description": "Entenda a energia e a massa envolvidas nas fusões reais de buracos negros"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Fatos"
+    },
+    "videos": {
+      "title": "Vídeos sobre Merge a Black Hole",
+      "description": "Assista ao gameplay, trailers, tutoriais e animações do Merge a Black Hole para ver estratégias em ação e manter-se atualizado sobre novos conteúdos.",
+      "metaTitle": "Vídeos sobre Merge a Black Hole - Gameplay, Trailers & Tutoriais",
+      "metaDescription": "Assista aos vídeos de gameplay do Merge a Black Hole, trailers, tutoriais e animações. Veja as melhores estratégias em ação e fique por dentro das últimas atualizações do jogo.",
+      "categoryLabel": "VÍDEOS",
+      "whatIs": "O que são Vídeos?",
+      "whatIsDescription": "Os vídeos mostram o Merge a Black Hole em movimento, incluindo gravações de gameplay, trailers oficiais, tutoriais completos e animações que demonstram estratégias e novos conteúdos.",
+      "why": "Por que assistir aos vídeos?",
+      "whySteps": {
+        "step1Title": "Veja Estratégias",
+        "step1Description": "Assista os melhores jogadores executando estratégias de fusão vencedoras",
+        "step2Title": "Mantenha-se Atualizado",
+        "step2Description": "C catch trailers e anúncios de novos conteúdos",
+        "step3Title": "Aprenda Visualmente",
+        "step3Description": "Siga os tutoriais para dominar seções difíceis"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Vídeos"
+    }
   }
 }
