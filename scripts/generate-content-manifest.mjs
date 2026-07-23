@@ -54,9 +54,13 @@ function main() {
   const manifest = {}
   let total = 0
 
+  // content 目录不存在（新站未填充内容）时生成空清单而非 exit(1)，
+  // 避免 deploy-workers.yml 构建期调用本脚本时因缺目录直接退出导致 CI 失败
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单`)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    return
   }
 
   const locales = fs
