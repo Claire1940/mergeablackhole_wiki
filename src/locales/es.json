@@ -282,22 +282,22 @@
         {
           "category": "Farming de Recursos",
           "strategy": "Recolecta recursos de manera eficiente y mantén un crecimiento constante durante cada sesión.",
-          "importance": "Alta"
+          "importance": "High"
         },
         {
           "category": "Gestión de Mejoras",
           "strategy": "Prioriza las mejoras que proporcionan los mejores avances de progreso.",
-          "importance": "Alta"
+          "importance": "High"
         },
         {
           "category": "Eficiencia de Reencarnación",
           "strategy": "Usa los sistemas de reencarnación en los momentos óptimos para aumentar el crecimiento a largo plazo.",
-          "importance": "Media"
+          "importance": "Medium"
         },
         {
           "category": "Progreso Diario",
           "strategy": "Juega de manera consistente para maximizar las recompensas acumuladas y los avances en el ranking.",
-          "importance": "Media"
+          "importance": "Medium"
         }
       ]
     }

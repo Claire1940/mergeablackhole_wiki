@@ -282,22 +282,22 @@
         {
           "category": "Fazenda de Recursos",
           "strategy": "Colete recursos de forma eficiente e mantenha um crescimento consistente ao longo de cada sessão.",
-          "importance": "Alta"
+          "importance": "High"
         },
         {
           "category": "Gestão de Atualizações",
           "strategy": "Priorize atualizações que proporcionem as melhores melhorias de progresso.",
-          "importance": "Alta"
+          "importance": "High"
         },
         {
           "category": "Eficiência de Reencarnação",
           "strategy": "Use sistemas de reencarnação em momentos ótimos para aumentar o crescimento a longo prazo.",
-          "importance": "Média"
+          "importance": "Medium"
         },
         {
           "category": "Progresso Diário",
           "strategy": "Jogue consistentemente para maximizar recompensas acumuladas e ganhos de ranking.",
-          "importance": "Média"
+          "importance": "Medium"
         }
       ]
     }

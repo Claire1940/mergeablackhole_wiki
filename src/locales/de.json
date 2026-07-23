@@ -282,22 +282,22 @@
         {
           "category": "Ressourcenanbau",
           "strategy": "Sammle Ressourcen effizient und halte ein konstantes Wachstum während jeder Sitzung aufrecht.",
-          "importance": "Hoch"
+          "importance": "High"
         },
         {
           "category": "Upgrade-Management",
           "strategy": "Priorisiere Upgrades, die die stärksten Fortschrittverbesserungen bieten.",
-          "importance": "Hoch"
+          "importance": "High"
         },
         {
           "category": "Wiedergeburtseffizienz",
           "strategy": "Verwende Wiedergeburtssysteme zu optimalen Zeiten, um das langfristige Wachstum zu erhöhen.",
-          "importance": "Mittel"
+          "importance": "Medium"
         },
         {
           "category": "Täglicher Fortschritt",
           "strategy": "Konsistent spielen, um maximale Belohnungen und Rangveränderungen zu erzielen.",
-          "importance": "Mittel"
+          "importance": "Medium"
         }
       ]
     }
