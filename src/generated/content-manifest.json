@@ -36,8 +36,24 @@
     ],
     "guide": [
       {
+        "slug": "can-black-holes-merge",
+        "file": "can-black-holes-merge"
+      },
+      {
+        "slug": "how-long-does-it-take-for-two-black-holes-to-merge",
+        "file": "how-long-does-it-take-for-two-black-holes-to-merge"
+      },
+      {
         "slug": "merge-a-black-hole-beginner-guide",
         "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
       },
       {
         "slug": "merge-a-black-hole-guide",
@@ -58,6 +74,26 @@
       {
         "slug": "merge-a-black-hole-update-guide",
         "file": "merge-a-black-hole-update-guide"
+      },
+      {
+        "slug": "merge-two-black-holes",
+        "file": "merge-two-black-holes"
+      },
+      {
+        "slug": "merging-black-hole-categories",
+        "file": "merging-black-hole-categories"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-combine",
+        "file": "what-happens-when-two-black-holes-combine"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-merge",
+        "file": "what-happens-when-two-black-holes-merge"
+      },
+      {
+        "slug": "what-is-a-black-hole-merger",
+        "file": "what-is-a-black-hole-merger"
       }
     ],
     "levels": [
@@ -182,8 +218,16 @@
     ],
     "guide": [
       {
+        "slug": "can-black-holes-merge",
+        "file": "can-black-holes-merge"
+      },
+      {
         "slug": "merge-a-black-hole-beginner-guide",
         "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
       },
       {
         "slug": "merge-a-black-hole-guide",
@@ -204,6 +248,10 @@
       {
         "slug": "merge-a-black-hole-update-guide",
         "file": "merge-a-black-hole-update-guide"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-merge",
+        "file": "what-happens-when-two-black-holes-merge"
       }
     ],
     "levels": [
@@ -328,8 +376,24 @@
     ],
     "guide": [
       {
+        "slug": "can-black-holes-merge",
+        "file": "can-black-holes-merge"
+      },
+      {
+        "slug": "how-long-does-it-take-for-two-black-holes-to-merge",
+        "file": "how-long-does-it-take-for-two-black-holes-to-merge"
+      },
+      {
         "slug": "merge-a-black-hole-beginner-guide",
         "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
       },
       {
         "slug": "merge-a-black-hole-guide",
@@ -338,6 +402,10 @@
       {
         "slug": "merge-a-black-hole-how-to-play",
         "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
       },
       {
         "slug": "merge-a-black-hole-strategies",
@@ -350,6 +418,26 @@
       {
         "slug": "merge-a-black-hole-update-guide",
         "file": "merge-a-black-hole-update-guide"
+      },
+      {
+        "slug": "merge-two-black-holes",
+        "file": "merge-two-black-holes"
+      },
+      {
+        "slug": "merging-black-hole-categories",
+        "file": "merging-black-hole-categories"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-combine",
+        "file": "what-happens-when-two-black-holes-combine"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-merge",
+        "file": "what-happens-when-two-black-holes-merge"
+      },
+      {
+        "slug": "what-is-a-black-hole-merger",
+        "file": "what-is-a-black-hole-merger"
       }
     ],
     "levels": [
@@ -398,6 +486,10 @@
       {
         "slug": "merge-a-black-hole-merge-two-black-holes",
         "file": "merge-a-black-hole-merge-two-black-holes"
+      },
+      {
+        "slug": "merge-a-black-hole-merging-black-holes-gravity-waves",
+        "file": "merge-a-black-hole-merging-black-holes-gravity-waves"
       },
       {
         "slug": "merge-a-black-hole-what-happens-when-two-black-holes-merge",
@@ -474,8 +566,24 @@
     ],
     "guide": [
       {
+        "slug": "can-black-holes-merge",
+        "file": "can-black-holes-merge"
+      },
+      {
+        "slug": "how-long-does-it-take-for-two-black-holes-to-merge",
+        "file": "how-long-does-it-take-for-two-black-holes-to-merge"
+      },
+      {
         "slug": "merge-a-black-hole-beginner-guide",
         "file": "merge-a-black-hole-beginner-guide"
+      },
+      {
+        "slug": "merge-a-black-hole-community",
+        "file": "merge-a-black-hole-community"
+      },
+      {
+        "slug": "merge-a-black-hole-discord",
+        "file": "merge-a-black-hole-discord"
       },
       {
         "slug": "merge-a-black-hole-guide",
@@ -484,6 +592,10 @@
       {
         "slug": "merge-a-black-hole-how-to-play",
         "file": "merge-a-black-hole-how-to-play"
+      },
+      {
+        "slug": "merge-a-black-hole-reddit",
+        "file": "merge-a-black-hole-reddit"
       },
       {
         "slug": "merge-a-black-hole-strategies",
@@ -496,6 +608,26 @@
       {
         "slug": "merge-a-black-hole-update-guide",
         "file": "merge-a-black-hole-update-guide"
+      },
+      {
+        "slug": "merge-two-black-holes",
+        "file": "merge-two-black-holes"
+      },
+      {
+        "slug": "merging-black-hole-categories",
+        "file": "merging-black-hole-categories"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-combine",
+        "file": "what-happens-when-two-black-holes-combine"
+      },
+      {
+        "slug": "what-happens-when-two-black-holes-merge",
+        "file": "what-happens-when-two-black-holes-merge"
+      },
+      {
+        "slug": "what-is-a-black-hole-merger",
+        "file": "what-is-a-black-hole-merger"
       }
     ],
     "levels": [

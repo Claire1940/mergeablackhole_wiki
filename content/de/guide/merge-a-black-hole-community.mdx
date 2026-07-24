@@ -1,0 +1,58 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Merge a Black Hole: Die kosmische Kollision Anleitung",
+  description: "Entdecken Sie die faszinierende Kollision eines Magnetars mit einem Schwarzen Loch in Merge a Black Hole. Lernen Sie die Auswirkungen und Überlebensstrategien.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=Black+Hole+Collision",
+  date: "2026-07-23",
+  author: "merge a black hole Wiki Team"
+};
+
+<Callout type="info" title="Kurzanleitung">
+- **Magnetar vs Schwarzes Loch**: Verstehen Sie die kosmische Kollision
+- **Überlebens-Tipps**: Wichtige Strategien für Spieler
+- **Auswirkungsanalyse**: Erforschen Sie die Auswirkungen auf das Galaxie
+- **Video-Highlights**: Beobachten Sie das Ereignis
+- **FAQ**: Antworten auf häufig gestellte Fragen
+</Callout>
+
+<Section icon={Map} title="Einführung in die Kollision">
+Merge a Black Hole präsentiert ein einzigartiges kosmisches Ereignis, bei dem ein Magnetar, ein kollabierter Stern mit einem extrem starken Magnetfeld, mit einem supermassiven Schwarzen Loch kollidiert. Dieser Abschnitt bietet eine Übersicht über das Ereignis und seine Bedeutung im Spiel.
+</Section>
+
+<Section icon={Swords} title="Verständnis des Magnetars">
+Ein Magnetar ist ein stark magnetisierte Neutronenstern mit einem starken Magnetfeld. Lernen Sie über ihre Entstehung, Eigenschaften und wie sie zur Kollision beitragen.
+</Section>
+
+<Section icon={Trophy} title="Auswirkungen auf das Galaxie">
+Die Kollision hat erhebliche Auswirkungen auf das Galaxie, einschließlich Veränderungen in der Sternentstehung, Gravitationswellen und potenziell neue Himmelskörper. Erforschen Sie diese Auswirkungen im Detail.
+</Section>
+
+<Section icon={Target} title="Überlebensstrategien">
+Um die Auswirkungen der Kollision zu navigieren, müssen Spieler ihre Strategien anpassen. Dieser Abschnitt bietet Tipps, wie man in der veränderten Galaxie überleben und gedeihen kann.
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+<FAQ items={[
+  {
+    question: "Was ist ein Magnetar?",
+    answer: "Ein Magnetar ist ein stark magnetisierte Neutronenstern mit einem starken Magnetfeld, der aus den Überresten einer Supernova formed."
+  },
+  {
+    question: "Wie beeinflusst die Kollision das Galaxie?",
+    answer: "Die Kollision kann zu Veränderungen in der Sternentstehung, Gravitationswellen und potenziell neuen Himmelskörper führen."
+  },
+  {
+    question: "Was sind die besten Überlebensstrategien?",
+    answer: "Anpassen Sie Ihren Spielstil, konzentrieren Sie sich auf Ressourcenverwaltung und bleiben Sie informiert über die neuesten Entwicklungen in der Galaxie."
+  }
+]} />
+</Section>
